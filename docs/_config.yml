@@ -1,29 +1,99 @@
-title: "Home"
-description: ""
+# Site Settings
+title: "Workshop Hub"
+subtitle: "QGIS, Tableau & Geospatial Analysis Workshops"
+name: "Your Name"
+description: "Workshops and tutorials for QGIS, Tableau, and other geospatial technologies"
+url: "https://yourusername.github.io"
+baseurl: "" # leave empty if using yourusername.github.io, or "/repository-name" if using a project site
+repository: "yourusername/repository-name"
+logo: "/assets/images/logo.png" # optional
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "mint"
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-search: false
-markdown: kramdown
-permalink: pretty
+# Site Author
+author:
+  name: "Christopher Seeger"
+  avatar: "/assets/images/bio-photo.jpg" # optional
+  bio: "GIS Analyst & Educator"
+  location: "Ames, Iowa"
+  email: "cjseeger@iastate.edu"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/profseeger"
 
-atom_feed:
-  hide: true
+# Reading Files
+include:
+  - _pages
 
+# Collections
 collections:
-  pages:
+  workshops:
     output: true
+    permalink: /workshops/:title/
+  tutorials:
+    output: true
+    permalink: /tutorials/:title/
 
+# Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
+      type: posts
     values:
       layout: single
-      custom_head: head/custom.html
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _workshops
+  - scope:
+      path: ""
+      type: workshops
+    values:
+      layout: single
+      author_profile: false
       sidebar:
-        nav: "sidebar"
+        nav: "workshop-sidebar"
+      share: true
+  # _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
+# Plugins
 plugins:
-  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
   - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
