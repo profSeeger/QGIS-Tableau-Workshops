@@ -11,7 +11,7 @@ main:
 sidebar:
   - title: "About"
     url: /about/
-  - title: "Tasks"
+  - title: "QGIS"
     children:
       - title: "Overview"
         url: "#overview"
