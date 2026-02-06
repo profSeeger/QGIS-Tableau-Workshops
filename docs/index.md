@@ -2,7 +2,7 @@
 layout: splash
 title: ""
 header:
-  overlay_image: /assets/images/splash-header.jpg
+  overlay_image: /assets/images/cover.jpg
   overlay_filter: 0.1
 excerpt: " "
 custom_head: head/custom.html
