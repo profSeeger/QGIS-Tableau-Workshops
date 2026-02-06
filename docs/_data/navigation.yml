@@ -14,7 +14,7 @@ sidebar:
     children:
       - title: "Overview"
         url: /qgis/overview/
-      - title: "Software Setup
+      - title: "Software Setup"
         url: /qgis/software-setup/
       - title: "Agenda"
         url: /qgis/agenda/
@@ -25,13 +25,13 @@ sidebar:
   - title: "tableau"
     children:
       - title: "Overview"
-        url: "#overview"
+        url: /tableau/overview/
       - title: "Software Setup"
-        url: "#software-setup"
+        url: /tableau/software-setup/
       - title: "Agenda"
-        url: "#agenda"
+        url: /tableau/agenda/
       - title: "Workshop Data"
-        url: "#workshop-data"
+        url: /tableau/workshop-data/
       - title: "Prerequisites"
-        url: "#prerequisites"
+        url: /tableau/prerequisites/
 
