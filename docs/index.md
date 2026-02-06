@@ -23,12 +23,12 @@ Information for how to install workshop software and download data will be inclu
 
 Current scheduled workshops include:  
 
-February 25: Introduction to QGIS Workshop [PDF flyer](QGIS-Tableau-Workshops/assets/pdf/qgis_flyer_feb2026.pdf)  
+February 25: Introduction to QGIS Workshop [PDF flyer](/assets/pdf/qgis_flyer_feb2026.pdf)  
 
 
-February 26: Unlocking the Power of Community Data: Introduction to Tableau Public Workshop (PDF flyer](QGIS-Tableau-Workshops/assets/pdf/tableau_Flyer_feb2026.pdf)  
+February 26: Unlocking the Power of Community Data: Introduction to Tableau Public Workshop (PDF flyer](/assets/pdf/tableau_Flyer_feb2026.pdf)  
 
-You can register at <https://go.iastate.edu/JAFV8P> for just one workshop or bundle them for a discounted price.
+You can register at <https://go.iastate.edu/JAFV8P>{:target="_blank" rel="noopener noreferrer"} for just one workshop or bundle them for a discounted price.
 
 
 <div class="button-container">
