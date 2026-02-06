@@ -5,8 +5,7 @@ main:
 
  #- title: "About Me"
  #  url: /about/
-
-    
+ 
 # Sidebar navigation (docs-style)
 sidebar:
   - title: "About"
