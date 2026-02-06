@@ -1,7 +1,7 @@
 ---
-title: "Mid Semester project"
-permalink: /assignments/mid/
+title: "QGIS Workshop Overview"
+permalink: /qgis/overview
 ---
 
-Mid Semester Project description
+QGIS Workshop Overview text will be added here
 
