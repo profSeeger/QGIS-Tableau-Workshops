@@ -4,7 +4,7 @@ title: ""
 header:
   overlay_image: /assets/images/splash-header.jpg
   overlay_filter: 0.1
-excerpt: "Mapping and Data"
+excerpt: " "
 custom_head: head/custom.html
 
 ---
