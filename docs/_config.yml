@@ -2,8 +2,8 @@ title: ""
 subtitle: ""
 description: ""
 
-baseurl: "/QGIS-Tableau-Workshops"
-url: "https://profseeger.github.io"
+# baseurl: "/QGIS-Tableau-Workshops"
+# url: "https://profseeger.github.io"
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
