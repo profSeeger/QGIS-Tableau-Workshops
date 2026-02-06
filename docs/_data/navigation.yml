@@ -14,15 +14,15 @@ sidebar:
   - title: "QGIS"
     children:
       - title: "Overview"
-        url: "#overview"
-      - title: "Software Setup"
-        url: "#software-setup"
+        url: /qgis/overview/
+      - title: "Software Setup
+        url: /qgis/software-setup/
       - title: "Agenda"
-        url: "#agenda"
+        url: /qgis/agenda/
       - title: "Workshop Data"
-        url: "#workshop-data"
+        url: /qgis/workshop-data/
       - title: "Prerequisites"
-        url: "#prerequisites"
+        url: /qgis/prerequisites/
   - title: "tableau"
     children:
       - title: "Overview"
