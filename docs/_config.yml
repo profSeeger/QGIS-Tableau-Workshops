@@ -2,6 +2,9 @@ title: ""
 subtitle: ""
 description: ""
 
+baseurl: "/QGIS-Tableau-Workshops"
+url: "https://profseeger.github.io"
+
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air"
