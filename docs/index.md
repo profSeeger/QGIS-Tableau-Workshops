@@ -11,7 +11,6 @@ custom_head: head/custom.html
 
 ## QGIS-Tableau-Workshops 2026
 
-
 I am in the process of launching new workshops for QGIS and Tableau in late February.  
 This website and repository will soon be the home for those workshops providing you with access to data and other resources to help you learn how to use these spatial data visualization tools.
 I will be launching the actual website sometime on February 6, 2026 so please check back after then for more information.  
