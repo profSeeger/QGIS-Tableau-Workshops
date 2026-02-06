@@ -1,9 +1,9 @@
 ---
-title: "Tasks"
+title: "QGIS Mapping Workshops"
 permalink: /qgis/
 ---
 
-## QGIS Mapping Workshop
+## Overview
 
 Designed for those new to digital mapping tools *and* for users familiar with ArcGIS Pro who are interested in learning QGIS, this workshop offers a guided introduction to **QGIS**—a free, open-source geographic information system (GIS).
 

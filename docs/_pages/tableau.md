@@ -1,5 +1,5 @@
 ---
-title: "Final Project"
+title: "Intro to Tableau Public Workshops"
 permalink: /tableau/
 ---
 
