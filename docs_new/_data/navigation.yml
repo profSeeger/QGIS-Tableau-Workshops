@@ -13,7 +13,7 @@ main:
 
 # Workshop Sidebar Navigation
 workshop-sidebar:
-  - title: "Workshop Info"
+  - title: "QGIS Workshop"
     children:
       - title: "Overview"
         url: "#overview"
