@@ -23,5 +23,16 @@ sidebar:
         url: "#workshop-data"
       - title: "Prerequisites"
         url: "#prerequisites"
-
+  - title: "tableau"
+    children:
+      - title: "Overview"
+        url: "#overview"
+      - title: "Software Setup"
+        url: "#software-setup"
+      - title: "Agenda"
+        url: "#agenda"
+      - title: "Workshop Data"
+        url: "#workshop-data"
+      - title: "Prerequisites"
+        url: "#prerequisites"
 
