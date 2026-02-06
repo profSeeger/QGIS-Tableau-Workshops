@@ -28,6 +28,6 @@ You can register at <https://go.iastate.edu/JAFV8P>{:target="_blank" rel="noopen
 
 
 <div class="button-container">
-  <a href="/seeger5880-2026/qgis/" class="btn btn--primary">Introduction to QGIS Workshop</a>
-  <a href="/seeger5880-2026/tableau/" class="btn btn--primary">Introduction to Tableau Workshop</a>
+  <a href="/QGIS-Tableau-Workshops/qgis/" class="btn btn--primary">Introduction to QGIS Workshop</a>
+  <a href="/QGIS-Tableau-Workshops/tableau/" class="btn btn--primary">Introduction to Tableau Workshop</a>
 </div>
