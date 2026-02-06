@@ -1,0 +1,27 @@
+# Main Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "Workshops"
+    url: /workshops/
+  - title: "Resources"
+    url: /resources/
+  - title: "Archive"
+    url: /archive/
+  - title: "About"
+    url: /about/
+
+# Workshop Sidebar Navigation
+workshop-sidebar:
+  - title: "Workshop Info"
+    children:
+      - title: "Overview"
+        url: "#overview"
+      - title: "Software Setup"
+        url: "#software-setup"
+      - title: "Agenda"
+        url: "#agenda"
+      - title: "Workshop Data"
+        url: "#workshop-data"
+      - title: "Prerequisites"
+        url: "#prerequisites"
