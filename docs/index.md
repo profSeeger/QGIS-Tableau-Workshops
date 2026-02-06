@@ -9,7 +9,7 @@ custom_head: head/custom.html
 
 ---
 
-##QGIS-Tableau-Workshops 2026
+## QGIS-Tableau-Workshops 2026
 
 Greetings!  
 I am in the process of launching new workshops for QGIS and Tableau in late February.  
