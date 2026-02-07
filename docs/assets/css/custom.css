@@ -14,9 +14,7 @@ h1 {
 /* .layout--home .page__hero--overlay {min-height: 160px;} */
 
 .page__hero--overlay {
-  background-size: contain !important;
-  background-repeat: no-repeat;
-  background-position: center center;
+.page__hero--overlay {min-height: 260px;}
 }
 
 
