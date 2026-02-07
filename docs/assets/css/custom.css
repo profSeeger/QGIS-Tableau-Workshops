@@ -11,9 +11,15 @@ h1 {
 
 
 /* Reduce hero header height */
-.layout--home .page__hero--overlay {
-  min-height: 160px;
+/* .layout--home .page__hero--overlay {min-height: 250px;} */
+
+
+.page__hero--overlay {
+  min-height: 320px;
+  background-position: center bottom;
 }
+
+
 
 .feature__item img {
   max-height: 120px;
