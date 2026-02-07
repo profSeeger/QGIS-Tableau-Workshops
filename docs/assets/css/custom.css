@@ -11,12 +11,12 @@ h1 {
 
 
 /* Reduce hero header height */
-/* .layout--home .page__hero--overlay {min-height: 160px;} */
+/* .layout--home .page__hero--overlay {min-height: 250px;} */
 
 
 .page__hero--overlay {
-  min-height: 260px;
-  background-position: center top;
+  min-height: 320px;
+  background-position: center bottom;
 }
 
 
