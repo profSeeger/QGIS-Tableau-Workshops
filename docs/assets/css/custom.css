@@ -14,7 +14,11 @@ h1 {
 /* .layout--home .page__hero--overlay {min-height: 160px;} */
 
 
-.page__hero--overlay {min-height: 260px;}
+.page__hero--overlay {
+  min-height: 260px;
+  background-position: center top;
+}
+
 
 
 .feature__item img {
