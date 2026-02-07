@@ -13,9 +13,8 @@ h1 {
 /* Reduce hero header height */
 /* .layout--home .page__hero--overlay {min-height: 160px;} */
 
-.page__hero--overlay {
+
 .page__hero--overlay {min-height: 260px;}
-}
 
 
 .feature__item img {
