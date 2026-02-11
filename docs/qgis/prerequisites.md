@@ -1,6 +1,6 @@
 ---
 title: "QGIS prerequisites"
-permalink: /qgis/prerequisites
+permalink: /qgis/prerequisites/
 ---
 
 ### Prerequisites
