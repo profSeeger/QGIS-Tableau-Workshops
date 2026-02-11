@@ -1,5 +1,5 @@
 ---
-title: "QGIS workshop-data"
+title: "QGIS workshop data"
 permalink: /qgis/workshop-data/
 ---
 
