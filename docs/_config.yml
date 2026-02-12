@@ -1,9 +1,9 @@
-title: ""
+title: "title is here."
 subtitle: ""
 description: ""
 
-# baseurl: "/QGIS-Tableau-Workshops"
-# url: "https://profseeger.github.io"
+baseurl: "/QGIS-Tableau-Workshops"  # Your repository name (must start with /)
+url: "https://profseeger.github.io" # Your main domain
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
