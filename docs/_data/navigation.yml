@@ -1,7 +1,7 @@
 # Top navigation (shown on splash & pages)
 main:
- - title: "Homes"
-#  url: /
+ - title: "Home"
+   url: /
 
  #- title: "About Me"
  #  url: /about/
