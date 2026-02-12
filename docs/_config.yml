@@ -16,6 +16,9 @@ permalink: pretty
 atom_feed:
   hide: true
 
+# _config.yml
+timezone: America/Chicago  # Replace with your actual IANA timezone
+
 collections:
   pages:
     output: true
