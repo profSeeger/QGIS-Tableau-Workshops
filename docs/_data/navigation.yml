@@ -3,8 +3,10 @@ main:
  - title: "Home"
    url: /
 
- #- title: "About Me"
- #  url: /about/
+ - title: "QGIS"
+   url: /qgis/
+ - title: "Tableau"
+   url: /tableau/
  
 # Sidebar navigation (docs-style)
 sidebar:
@@ -13,7 +15,7 @@ sidebar:
   - title: "QGIS"
     children:
       - title: "Overview"
-        url: /qgis/overview/
+        url: /qgis/
       - title: "Software Setup"
         url: /qgis/software-setup/
       - title: "Agenda"
