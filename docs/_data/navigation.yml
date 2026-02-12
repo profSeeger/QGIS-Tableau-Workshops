@@ -1,12 +1,14 @@
 # Top navigation (shown on splash & pages)
 main:
- - title: "Home"
-   url: /
+#- title: "Home"
+#  url: /
 
  - title: "QGIS"
    url: /qgis/
  - title: "Tableau"
    url: /tableau/
+ - title: "Other Tools"
+   url: /otherTools/
  
 # Sidebar navigation (docs-style)
 sidebar:
