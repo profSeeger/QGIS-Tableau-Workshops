@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: " "
 header:
   overlay_image: /assets/images/cover.jpg
   overlay_filter: 0.1 # Adds 50% black opacity
