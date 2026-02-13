@@ -50,7 +50,7 @@ Ames, Iowa
 **Register here:**  
 👉 [https://go.iastate.edu/4EBPFN](https://go.iastate.edu/4EBPFN)
 
-Participants interested in the **Tableau Workshop (February 26)** may register for a special discounted workshop bundle.
+Participants interested in the **Tableau Workshop (February 26)** may register for a special discounted bundle workshop price.
 
 ---
 
