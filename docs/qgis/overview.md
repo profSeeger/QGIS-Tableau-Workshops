@@ -1,6 +1,7 @@
 ---
 title: "QGIS Workshop Overview"
 permalink: /qgis/overview/
+layout: single
 ---
 
 Designed for both newcomers to digital mapping and experienced **ArcGIS Pro** users interested in expanding their skills, this workshop provides a practical, guided introduction to **QGIS** — a powerful, free, and open-source Geographic Information System (GIS).
