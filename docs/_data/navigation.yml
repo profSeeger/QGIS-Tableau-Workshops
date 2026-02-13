@@ -15,7 +15,6 @@ sidebar:
   - title: "About"
     url: /about/
   - title: "QGIS"
-    url: /qgis/prerequisites/
     children:
       - title: " Overview"
         url: /qgis/overview/
@@ -28,7 +27,6 @@ sidebar:
       - title: " Prerequisites"
         url: /qgis/prerequisites/
   - title: "tableau"
-    url: /tableau/
     children:
       - title: " Overview"
         url: /tableau/overview/
