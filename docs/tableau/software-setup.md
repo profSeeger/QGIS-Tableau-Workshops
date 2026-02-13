@@ -12,7 +12,7 @@ To participate in the workshop, you must install **Tableau Public** before arriv
 
 ### Step 1: Go to the Tableau Public Website
 
-Visit: https://public.tableau.com
+Visit: <https://public.tableau.com>
 
 On the homepage, select:
 
