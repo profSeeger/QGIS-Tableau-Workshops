@@ -4,7 +4,7 @@ main:
 #  url: /
 
  - title: "QGIS"
-   url: /qgis/
+   url: /qgis/overview/
  - title: "Tableau"
    url: /tableau/
  - title: "Other Tools"
@@ -16,27 +16,27 @@ sidebar:
     url: /about/
   - title: "QGIS"
     children:
-      - title: "Overview"
-        url: /qgis/
-      - title: "Software Setup"
+      - title: " Overview"
+        url: /qgis/overview/
+      - title: " Software Setup"
         url: /qgis/software-setup/
-      - title: "Agenda"
+      - title: " Agenda"
         url: /qgis/agenda/
-      - title: "Workshop Data"
+      - title: " Workshop Data"
         url: /qgis/workshop-data/
-      - title: "Prerequisites"
+      - title: " Prerequisites"
         url: /qgis/prerequisites/
   - title: "tableau"
     url: /tableau/
     children:
-      - title: "Overview"
+      - title: " Overview"
         url: /tableau/overview/
-      - title: "Software Setup"
+      - title: " Software Setup"
         url: /tableau/software-setup/
-      - title: "Agenda"
+      - title: " Agenda"
         url: /tableau/agenda/
-      - title: "Workshop Data"
+      - title: " Workshop Data"
         url: /tableau/workshop-data/
-      - title: "Prerequisites"
+      - title: " Prerequisites"
         url: /tableau/prerequisites/
 
