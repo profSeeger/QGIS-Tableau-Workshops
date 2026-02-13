@@ -7,7 +7,7 @@ header:
 custom_head: head/custom.html
 ---
 
-Welcome to [Professor Seeger's]{/about/} Workshop Resources. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
+Welcome to [Professor Seeger's](/about/) Workshop Resources. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
 
 Use the buttons in the top right or the links below to navigate directly to a workshop.
 
