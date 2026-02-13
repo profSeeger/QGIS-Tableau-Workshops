@@ -3,8 +3,10 @@ title: "Other Mapping Tools"
 permalink: /otherTools/
 ---
 
-Other tools that Professor Seeger uses often include:  
+Other tools that Professor Seeger often uses include:  
 
 - [GeoJSON.io](https://geojson.io): An online map editor that allows point, line and polygon geometries to be drawn and saved in several (GeoJSON, topoJSON, CSV, KML, WKT or Shapefile) file formats.
+- [MapShaper](https://mapshaper.org/): Provides adjustable simplification of topology. Reads and writes Shapefile, GeoJSON and TopoJSON formats so can also serve as a file converter without requiring simplification.
+
 - [Tidy Census](https://walker-data.com/tidycensus) package for R: Designed to facilitate the process of acquiring and working with US Census Bureau population data in the R environment.  
   - Kyle Walker's 2023 free online book [Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/index.html) is a great resource.  
