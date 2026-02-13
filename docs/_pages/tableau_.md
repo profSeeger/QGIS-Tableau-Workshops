@@ -1,6 +1,6 @@
 ---
-title: "Intro to Tableau Public Workshops"
-permalink: /tableau/
+## title: "Intro to Tableau Public Workshops"
+## permalink: /tableau/
 ---
 
 ## Unlocking the Power of Community Data  
