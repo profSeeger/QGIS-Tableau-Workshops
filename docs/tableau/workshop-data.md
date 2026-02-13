@@ -1,6 +1,9 @@
 ---
-title: "Tableau workshop data"
+title: "Tableau Workshop Data Download"
 permalink: /tableau/workshop-data/
 ---
 
-Tableau workshop-data data will be added here one week prior to the workshop. You will need to download this data prior to the workshop.
+The workshop data files will be posted here **two days prior to the workshop**.
+
+Please download all files to your laptop before arriving.  
+Having the data ready in advance will ensure you can fully participate in the hands-on activities without delays.
