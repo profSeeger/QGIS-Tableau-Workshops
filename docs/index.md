@@ -2,10 +2,10 @@
 layout: splash
 header:
   overlay_image: /assets/images/cover.jpg
-  overlay_filter: 0.5 # Adds 50% black opacity
+  overlay_filter: 0.1 # Adds 50% black opacity
 custom_head: head/custom.html
 ---
-### Q 
+###
 
 I am in the process of launching new workshops for QGIS and Tableau in late February.  
 This website and repository will soon be the home for those workshops providing you with access to data and other resources to help you learn how to use these spatial data visualization tools.
