@@ -6,7 +6,7 @@ main:
  - title: "QGIS"
    url: /qgis/overview/
  - title: "Tableau"
-   url: /tableau/
+   url: /tableau/overview/
  - title: "Other Tools"
    url: /otherTools/
  
@@ -15,6 +15,7 @@ sidebar:
   - title: "About"
     url: /about/
   - title: "QGIS"
+    url: /qgis/prerequisites/
     children:
       - title: " Overview"
         url: /qgis/overview/
