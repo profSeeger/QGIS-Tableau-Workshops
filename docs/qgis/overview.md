@@ -4,6 +4,8 @@ permalink: /qgis/overview/
 layout: single
 ---
 
+{{ page.last_modified_at }}  
+
 Designed for both newcomers to digital mapping and experienced **ArcGIS Pro** users interested in expanding their skills, this workshop provides a practical, guided introduction to **QGIS** — a powerful, free, and open-source Geographic Information System (GIS).
 
 **QGIS** is a widely used, multi-platform mapping application utilizede by governments, researchers, nonprofit organizations, and private industry professionals around the world. It enables users to visualize, analyze, and communicate spatial data in ways that spreadsheets and tables alone cannot.
