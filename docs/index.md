@@ -22,6 +22,6 @@ Current scheduled workshops include:
 You can register at <https://go.iastate.edu/JAFV8P>{:target="_blank" rel="noopener noreferrer"} for just one workshop or bundle them for a discounted price.
 
 <div class="button-container">
-  <a href="/QGIS-Tableau-Workshops/qgis/" class="btn btn--primary">Introduction to QGIS Workshop</a>
-  <a href="/QGIS-Tableau-Workshops/tableau/" class="btn btn--primary">Introduction to Tableau Workshop</a>
+  <a href="QGIS-Tableau-Workshops/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
+  <a href="/QGIS-Tableau-Workshops/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
 </div>
