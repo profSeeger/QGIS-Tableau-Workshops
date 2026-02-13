@@ -1,6 +1,5 @@
 ---
 layout: splash
-# Notice there is NO 'title:' line here
 header:
   overlay_image: /assets/images/cover.jpg
   overlay_filter: 0.1
