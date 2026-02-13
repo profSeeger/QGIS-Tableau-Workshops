@@ -25,7 +25,7 @@ sidebar:
       - title: " Workshop Data"
         url: /qgis/workshop-data/
       - title: " Prerequisites"
-        url: /qgis/prerequisites/
+        url: /prerequisites/
   - title: "tableau"
     children:
       - title: " Overview"
@@ -37,5 +37,5 @@ sidebar:
       - title: " Workshop Data"
         url: /tableau/workshop-data/
       - title: " Prerequisites"
-        url: /tableau/prerequisites/
+        url: /prerequisites/
 
