@@ -3,7 +3,6 @@ layout: splash
 header:
   overlay_image: /assets/images/cover.jpg
   overlay_filter: 0.1
-excerpt: "ssdsd"
 custom_head: head/custom.html
 ---
 
