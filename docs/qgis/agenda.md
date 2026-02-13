@@ -3,5 +3,5 @@ title: "QGIS Workshop Agenda"
 permalink: /qgis/agenda/
 ---
 
-QGIS agenda will be added here
+The QGIS workshop agenda will be added here soon!
 
