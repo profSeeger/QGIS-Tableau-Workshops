@@ -3,7 +3,7 @@ title: "About the Instructor"
 permalink: /about/
 ---
 
-![Professor Christopher J. Seeger](images/cjseeger_0.jpg){:width="120px" style="float:left; margin-right:15px;"}
+![Professor Christopher J. Seeger](/assets/images/cjseeger_0.jpg){:width="120px" style="float:left; margin-right:15px;"}
 
 The workshops will be taught by **Professor Christopher J. Seeger, GISP, ASLA**  
 
