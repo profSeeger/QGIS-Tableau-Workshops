@@ -11,8 +11,9 @@ I am in the process of launching new workshops for QGIS and Tableau in late Febr
 This website and repository will soon be the home for those workshops providing you with access to data and other resources to help you learn how to use these spatial data visualization tools.
 Please check back in a few days for more updates as I will be posting information for how to install workshop software and download data.  
 Thanks,  
-Professor Chris Seeger  
-
+Christopher J. Seeger, GISP, ASLA
+Professor and Extension Specialist
+Iowa State University
 
 
 Current scheduled workshops include:  
@@ -22,6 +23,6 @@ Current scheduled workshops include:
 You can register at <https://go.iastate.edu/JAFV8P>{:target="_blank" rel="noopener noreferrer"} for just one workshop or bundle them for a discounted price.
 
 <div class="button-container">
-  <a href="QGIS-Tableau-Workshops/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
-  <a href="/QGIS-Tableau-Workshops/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
+  <a href="/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
+  <a href="/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
 </div>
