@@ -28,9 +28,10 @@ Please install the appropriate version for your operating system using the guida
 
 ## Windows (PC) Installation Instructions
 
-1. Go to: <https://qgis.org>  
-2. Click **Download Now**.  
-3. Under Windows downloads, choose the **Standalone Installer**.
+1. Go to: <https://qgis.org>{:target="_blank"}
+2. [QGIS website](https://qgis.org){:target="_blank"}
+3. Click **Download Now**.  
+4. Under Windows downloads, choose the **Standalone Installer**.
 
 > ⚠️ **Important:** Do **NOT** download or install the *OSGeo4W Network Installer*.  
 > For this workshop, you should install the **Standalone version** only.
