@@ -1,8 +1,6 @@
 ---
 title: "Tableau Workshop Agenda"
 permalink: /tableau/agenda/
-date: 2026-02-12
-layout: single
 ---
 
 The workshop data files will be posted here **two days prior to the workshop**.
