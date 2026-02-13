@@ -7,12 +7,11 @@ header:
 custom_head: head/custom.html
 ---
 
-Welcome to Professor Seeger's Workshop Resources. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
+Welcome to [Professor Seeger's]{/about/} Workshop Resources. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
 
 Use the buttons in the top right or the links below to navigate directly to a workshop.
 
 ---
-
 ## Upcoming Workshops
 
 Current scheduled workshops include:
@@ -23,7 +22,6 @@ Current scheduled workshops include:
 You can register at [Iowa State Registration](https://go.iastate.edu/JAFV8P){:target="_blank" rel="noopener noreferrer"} for a single workshop or bundle both for a discounted price.
 
 ---
-
 <div class="button-container">
   <a href="/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
   <a href="/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
