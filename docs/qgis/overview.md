@@ -10,7 +10,6 @@ Designed for both newcomers to digital mapping and experienced **ArcGIS Pro** us
 This hands-on workshop emphasizes learning by doing. Participants will work directly with real-world datasets while building practical skills they can immediately apply to their own projects.
 
 ---
-
 ## What You Will Learn
 
 By the end of the workshop, participants will:
@@ -23,7 +22,6 @@ By the end of the workshop, participants will:
 - Understand core GIS concepts that transfer across platforms  
 
 ---
-
 ## Who Should Attend
 
 This workshop is ideal for:
