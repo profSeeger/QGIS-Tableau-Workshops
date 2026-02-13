@@ -5,7 +5,6 @@ header:
   overlay_filter: 0.1
 excerpt: "ssdsd"
 custom_head: head/custom.html
-
 ---
 
 ## QGIS-Tableau-Workshops 2026
