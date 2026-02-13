@@ -35,3 +35,4 @@ defaults:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-last-modified-at
