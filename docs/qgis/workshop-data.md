@@ -5,9 +5,6 @@ date: 2026-02-12
 layout: single
 ---
 
-
-last update: {{ page.last_modified_at }}  
-
 The workshop data files will be posted here **two days prior to the workshop**.
 
 Please download all files to your laptop before arriving.  
