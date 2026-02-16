@@ -1,7 +1,10 @@
 ---
 title: "QGIS Workshop Overview"
 permalink: /qgis/overview/
+layout: single
 ---
+
+{{ page.last_modified_at }}  
 
 Designed for both newcomers to digital mapping and experienced **ArcGIS Pro** users interested in expanding their skills, this workshop provides a practical, guided introduction to **QGIS** — a powerful, free, and open-source Geographic Information System (GIS).
 
@@ -10,7 +13,6 @@ Designed for both newcomers to digital mapping and experienced **ArcGIS Pro** us
 This hands-on workshop emphasizes learning by doing. Participants will work directly with real-world datasets while building practical skills they can immediately apply to their own projects.
 
 ---
-
 ## What You Will Learn
 
 By the end of the workshop, participants will:
@@ -23,7 +25,6 @@ By the end of the workshop, participants will:
 - Understand core GIS concepts that transfer across platforms  
 
 ---
-
 ## Who Should Attend
 
 This workshop is ideal for:

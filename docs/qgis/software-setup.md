@@ -28,9 +28,9 @@ Please install the appropriate version for your operating system using the guida
 
 ## Windows (PC) Installation Instructions
 
-1. Go to: https://qgis.org  
-2. Click **Download Now**.  
-3. Under Windows downloads, choose the **Standalone Installer**.
+1. Go to: [QGIS website](https://qgis.org){:target="_blank"}
+3. Click **Download Now**.  
+4. Under Windows downloads, choose the **Standalone Installer**.
 
 > ⚠️ **Important:** Do **NOT** download or install the *OSGeo4W Network Installer*.  
 > For this workshop, you should install the **Standalone version** only.
@@ -49,7 +49,7 @@ After installation, open QGIS to confirm it launches properly.
 
 ## macOS Installation Instructions
 
-1. Go to: https://qgis.org  
+1. 1. Go to: [QGIS website](https://qgis.org){:target="_blank"}
 2. Click **Download Now**.  
 3. Download **QGIS 3.44 for macOS**.
 

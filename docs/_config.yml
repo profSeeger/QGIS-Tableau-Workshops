@@ -18,6 +18,7 @@ atom_feed:
 
 # _config.yml
 timezone: America/Chicago  # Replace with your actual IANA timezone
+show_date: true
 
 collections:
   pages:
@@ -35,3 +36,4 @@ defaults:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+# - jekyll-last-modified-at
