@@ -3,7 +3,7 @@ title: "QGIS Workshop Agenda"
 permalink: /qgis/agenda/
 ---
 
-The workshop detailed agenda will be posted here **two days prior to the workshop**.
+_The workshop detailed agenda will be posted here **two days prior to the workshop**._
 
 
 # Introduction to QGIS Workshop  ---Tentative Agenda---
