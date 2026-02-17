@@ -3,9 +3,6 @@ title: "QGIS Workshop Agenda"
 permalink: /qgis/agenda/
 ---
 
-_The workshop detailed agenda will be posted here **two days prior to the workshop**._
-
-
 # Introduction to QGIS Workshop  ---Tentative Agenda---
 **8:30 AM – 4:30 PM**
 
