@@ -26,7 +26,7 @@ sidebar:
         url: /qgis/workshop-data/
       - title: " Prerequisites"
         url: /prerequisites/
-  - title: "tableau"
+  - title: "Tableau Public"
     children:
       - title: " Overview"
         url: /tableau/overview/
