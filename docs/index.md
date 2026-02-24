@@ -21,8 +21,8 @@ You can register at [Iowa State Registration](https://go.iastate.edu/JAFV8P){:ta
 
 ---
 <div class="button-container">
-  <a href="/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
-  <a href="/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
+  <a href="/QGIS-Tableau-Workshops/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
+  <a href="/QGIS-Tableau-Workshops/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
 </div>
 
 ---
