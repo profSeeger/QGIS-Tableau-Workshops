@@ -1,0 +1,51 @@
+Name,Street Address,City,State,ZIP,address,Latitude,Longitude,University
+Person 1,2610 Stange Rd,Ames,IA,50010,"2610 Stange Rd; Ames, IA 50010",42.012095,-93.636513,Drake University
+Person 2,4500 Lincoln Way,Ames,IA,50014,"4500 Lincoln Way; Ames, IA 50014",42.020662,-93.60646,University of Iowa
+Person 3,120 Hayward Ave,Ames,IA,50014,"120 Hayward Ave; Ames, IA 50014",42.025165,-93.617507,University of Northern Iowa
+Person 4,300 Main St,Ames,IA,50010,"300 Main St; Ames, IA 50010",42.044083,-93.633614,University of Northern Iowa
+Person 5,1500 Duff Ave,Ames,IA,50010,"1500 Duff Ave; Ames, IA 50010",42.032438,-93.611932,Iowa State University
+Person 6,100 Locust St,Des Moines,IA,50309,"100 Locust St; Des Moines, IA 50309",41.570067,-93.622549,University of Iowa
+Person 7,500 Grand Ave,Des Moines,IA,50309,"500 Grand Ave; Des Moines, IA 50309",41.605145,-93.624896,University of Iowa
+Person 8,1200 University Ave,Des Moines,IA,50314,"1200 University Ave; Des Moines, IA 50314",41.582618,-93.622067,University of Iowa
+Person 9,3000 Ingersoll Ave,Des Moines,IA,50312,"3000 Ingersoll Ave; Des Moines, IA 50312",41.573711,-93.634313,University of Iowa
+Person 10,4400 Merle Hay Rd,Des Moines,IA,50310,"4400 Merle Hay Rd; Des Moines, IA 50310",41.581672,-93.622774,Drake University
+Person 11,600 1st Ave NE,Cedar Rapids,IA,52401,"600 1st Ave NE; Cedar Rapids, IA 52401",41.970613,-91.656486,University of Northern Iowa
+Person 12,150 1st Ave SW,Cedar Rapids,IA,52404,"150 1st Ave SW; Cedar Rapids, IA 52404",41.973738,-91.65794,Iowa State University
+Person 13,400 Collins Rd NE,Cedar Rapids,IA,52402,"400 Collins Rd NE; Cedar Rapids, IA 52402",41.992851,-91.66445,University of Northern Iowa
+Person 14,2300 Edgewood Rd SW,Cedar Rapids,IA,52404,"2300 Edgewood Rd SW; Cedar Rapids, IA 52404",41.960502,-91.654282,Drake University
+Person 15,1800 42nd St NE,Cedar Rapids,IA,52402,"1800 42nd St NE; Cedar Rapids, IA 52402",41.987393,-91.664466,Drake University
+Person 16,201 S Clinton St,Iowa City,IA,52240,"201 S Clinton St; Iowa City, IA 52240",41.660824,-91.53322,University of Iowa
+Person 17,500 E College St,Iowa City,IA,52240,"500 E College St; Iowa City, IA 52240",41.673894,-91.524182,University of Iowa
+Person 18,1200 Gilbert St,Iowa City,IA,52240,"1200 Gilbert St; Iowa City, IA 52240",41.676546,-91.523677,Iowa State University
+Person 19,200 Hawkins Dr,Iowa City,IA,52242,"200 Hawkins Dr; Iowa City, IA 52242",41.653396,-91.527832,University of Iowa
+Person 20,900 Mormon Trek Blvd,Iowa City,IA,52246,"900 Mormon Trek Blvd; Iowa City, IA 52246",41.668925,-91.534494,University of Northern Iowa
+Person 21,1600 Rockingham Rd,Davenport,IA,52802,"1600 Rockingham Rd; Davenport, IA 52802",41.520652,-90.576552,University of Northern Iowa
+Person 22,320 W Kimberly Rd,Davenport,IA,52806,"320 W Kimberly Rd; Davenport, IA 52806",41.520513,-90.585923,Iowa State University
+Person 23,1100 Brady St,Davenport,IA,52803,"1100 Brady St; Davenport, IA 52803",41.536229,-90.57996,University of Iowa
+Person 24,2400 E River Dr,Davenport,IA,52803,"2400 E River Dr; Davenport, IA 52803",41.545552,-90.560328,Iowa State University
+Person 25,2600 N Harrison St,Davenport,IA,52803,"2600 N Harrison St; Davenport, IA 52803",41.541767,-90.560773,Iowa State University
+Person 26,500 Nebraska St,Sioux City,IA,51101,"500 Nebraska St; Sioux City, IA 51101",42.519678,-96.40222,Drake University
+Person 27,300 Gordon Dr,Sioux City,IA,51101,"300 Gordon Dr; Sioux City, IA 51101",42.481765,-96.414611,Iowa State University
+Person 28,2500 Transit Ave,Sioux City,IA,51106,"2500 Transit Ave; Sioux City, IA 51106",42.48084,-96.388044,University of Northern Iowa
+Person 29,400 Hamilton Blvd,Sioux City,IA,51103,"400 Hamilton Blvd; Sioux City, IA 51103",42.518187,-96.394629,University of Iowa
+Person 30,1501 Pierce St,Sioux City,IA,51105,"1501 Pierce St; Sioux City, IA 51105",42.484345,-96.417496,University of Northern Iowa
+Person 31,620 Mulberry St,Waterloo,IA,50701,"620 Mulberry St; Waterloo, IA 50701",42.498282,-92.356684,University of Iowa
+Person 32,200 E 4th St,Waterloo,IA,50703,"200 E 4th St; Waterloo, IA 50703",42.501829,-92.344902,Drake University
+Person 33,1500 University Ave,Waterloo,IA,50702,"1500 University Ave; Waterloo, IA 50702",42.471165,-92.347102,Drake University
+Person 34,222 Jefferson St,Waterloo,IA,50701,"222 Jefferson St; Waterloo, IA 50701",42.471321,-92.337536,Drake University
+Person 35,300 Fletcher Ave,Waterloo,IA,50701,"300 Fletcher Ave; Waterloo, IA 50701",42.483935,-92.334435,Iowa State University
+Person 36,350 W 6th St,Dubuque,IA,52001,"350 W 6th St; Dubuque, IA 52001",42.515355,-90.693238,Iowa State University
+Person 37,200 Main St,Dubuque,IA,52001,"200 Main St; Dubuque, IA 52001",42.494884,-90.700601,University of Iowa
+Person 38,1100 Locust St,Dubuque,IA,52001,"1100 Locust St; Dubuque, IA 52001",42.51299,-90.684899,Drake University
+Person 39,2600 Dodge St,Dubuque,IA,52003,"2600 Dodge St; Dubuque, IA 52003",42.501501,-90.704154,University of Northern Iowa
+Person 40,1800 Central Ave,Dubuque,IA,52001,"1800 Central Ave; Dubuque, IA 52001",42.511045,-90.69443,Iowa State University
+Person 41,800 SE Oralabor Rd,Ankeny,IA,50021,"800 SE Oralabor Rd; Ankeny, IA 50021",41.721397,-93.606491,University of Iowa
+Person 42,2005 S Ankeny Blvd,Ankeny,IA,50023,"2005 S Ankeny Blvd; Ankeny, IA 50023",41.725185,-93.587909,Drake University
+Person 43,1510 SW Main St,Ankeny,IA,50023,"1510 SW Main St; Ankeny, IA 50023",41.717287,-93.590346,Drake University
+Person 44,1631 SW Magazine Rd,Ankeny,IA,50023,"1631 SW Magazine Rd; Ankeny, IA 50023",41.726738,-93.606018,Drake University
+Person 45,1020 NE 36th St,Ankeny,IA,50021,"1020 NE 36th St; Ankeny, IA 50021",41.712152,-93.588356,University of Iowa
+Person 46,8600 Douglas Ave,Urbandale,IA,50322,"8600 Douglas Ave; Urbandale, IA 50322",41.616343,-93.717006,Iowa State University
+Person 47,3950 NW Urbandale Dr,Urbandale,IA,50322,"3950 NW Urbandale Dr; Urbandale, IA 50322",41.623743,-93.725809,University of Northern Iowa
+Person 48,4444 128th St,Urbandale,IA,50323,"4444 128th St; Urbandale, IA 50323",41.618996,-93.707193,University of Iowa
+Person 49,7000 Hickman Rd,Urbandale,IA,50322,"7000 Hickman Rd; Urbandale, IA 50322",41.62087,-93.709748,Iowa State University
+Person 50,10600 Plum Dr,Urbandale,IA,50322,"10600 Plum Dr; Urbandale, IA 50322",41.64546,-93.719418,University of Iowa
