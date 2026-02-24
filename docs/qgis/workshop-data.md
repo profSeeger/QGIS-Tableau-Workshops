@@ -3,7 +3,5 @@ title: "QGIS Workshop Data Download"
 permalink: /qgis/workshop-data/
 ---
 
-The workshop data files will be posted here **two days prior to the workshop**.
+The workshop files are available to be downloaded in a zipped directory from https://github.com/profSeeger/QGIS-Tableau-Workshops/blob/main/data/qgis/QGIS_Data_Feb26.zip
 
-Please download all files to your laptop before arriving.  
-Having the data ready in advance will ensure you can fully participate in the hands-on activities without delays.
