@@ -1,6 +1,6 @@
 ---
 title: "QGIS Workshop Agenda"
-permalink: /qgis/agenda/
+permalink: /qgis/agenda_/
 ---
 
 # Introduction to QGIS Workshop  ---Tentative Agenda---
