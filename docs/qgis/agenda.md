@@ -16,7 +16,7 @@ permalink: /qgis/agenda/
 - What is GIS?  
 - Vector vs. Raster data  
 - Coordinate systems (conceptual overview)  
-- Examples of real-world GIS applications  
+  - WSG 84, UTM 15 NAD 83, Mercator - commonly used with Web Maps
 
 ### 9:00 – 9:30 | Introduction to the QGIS Interface
 - Tour of the QGIS window  
