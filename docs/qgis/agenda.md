@@ -17,10 +17,19 @@ permalink: /qgis/agenda/
 - Vector vs. Raster data  
 - Coordinate systems (conceptual overview)  
   - WSG 84, UTM 15 NAD 83, Mercator - commonly used with Web Maps
+- Extensions and the plugins we need to turn on as well as other tool bars/panels
+  -   ??
 
-### 9:00 – 9:30 | Introduction to the QGIS Interface
-- Tour of the QGIS window  
-- Adding Data  
+### 9:00 – 9:30 | Introduction to the QGIS Interface and 
+- Tour of the QGIS window
+  -
+- Adding Data and file formats
+  -  ShapeFiles
+  -  GeoJSON
+  -  GeoPackage
+  -  CSV - with and without coordinates
+  -  ESRI Geo Database
+- Start a new project and adding the "world" Easter Egg as a background 
 - Changing the Project CRS  
 - Saving and managing projects
 - Add some basic symbology
