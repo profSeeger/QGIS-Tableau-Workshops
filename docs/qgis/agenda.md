@@ -21,8 +21,9 @@ permalink: /qgis/agenda/
 ### 9:00 – 9:30 | Introduction to the QGIS Interface
 - Tour of the QGIS window  
 - Adding Data  
-- Understanding Project CRS  
-- Saving and managing projects  
+- Changing the Project CRS  
+- Saving and managing projects
+- Add some basic symbology
 
 ### 9:30 – 10:15 | Building Our First Thematic Map  
 **Hands-On Exercise: Iowa County Population and Demographic Maps**
