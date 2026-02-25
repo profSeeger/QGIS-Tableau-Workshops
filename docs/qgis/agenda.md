@@ -4,7 +4,7 @@ permalink: /qgis/agenda/
 ---
 
 **Introduction to QGIS Workshop**  
-*Tentative Agenda*  
+*Agenda*  
 **8:30 AM – 4:30 PM**
 
 ---
@@ -22,6 +22,7 @@ permalink: /qgis/agenda/
 - Tour of the QGIS window and Interface
 - Extensions and the plugins we need to turn on as well as other tool bars/panels
   -   HCMGIS
+  -   Add Advanced Editiong Toolbar
 - Adding Data and file formats
   -  ShapeFiles
   -  GeoJSON
@@ -35,6 +36,7 @@ permalink: /qgis/agenda/
 - Saving and managing projects
 - Layer Management
 - Add some basic symbology
+- Select Features
 
 ### 9:30 – 10:15 | Building Our First Thematic Map  
 - Add Iowa county boundary data
@@ -48,6 +50,7 @@ permalink: /qgis/agenda/
 - Create a choropleth map  
 - Adjust classification methods  
 - Explore categorical vs. numerical data symbology
+- Export Map Canvas
 
 ### 10:15 – 10:30 | Break
 
@@ -99,7 +102,8 @@ permalink: /qgis/agenda/
 - Temporary Files
 - Geoocoding
   - iowa_geocoding_safe_50.csv
-- Buffer  
+- Buffer
+- Count points in Poly
 - Clip or Intersect  
 - Reprojecting data
 
@@ -107,9 +111,11 @@ permalink: /qgis/agenda/
 - Multiple map frames / Overview map
   - Use Schools/2025_26_SchoolDistricts_Enrollment 
 - Legend refinement  
-- Export settings  
+- Export settings for PDF/JPG
 
 ### 3:50 – 4:30 | Practice and Wrap-Up
+- Workshop Eval
+- Practice
 - Final Q & A
 
 ### Resources
