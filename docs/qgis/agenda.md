@@ -28,7 +28,8 @@ permalink: /qgis/agenda/
   -  GeoPackage
   -  CSV - with and without coordinates
   -  ESRI Geo Database
-- Start a new project and adding the "world" Easter Egg as a background 
+- Start a new project and adding the "world" Easter Egg as a background
+  - vacationStates.shp and files inside National-Regional/
 - Changing the Project CRS  
 - Saving and managing projects
 - Layer Management
