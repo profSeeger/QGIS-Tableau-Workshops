@@ -28,6 +28,7 @@ permalink: /qgis/agenda/
   -  GeoPackage
   -  CSV - with and without coordinates
   -  ESRI Geo Database
+- Connect to Data Directory by adding a Favorite
 - Start a new project and adding the "world" Easter Egg as a background
   - vacationStates.shp and files inside National-Regional/
 - Changing the Project CRS  
@@ -37,13 +38,17 @@ permalink: /qgis/agenda/
 
 ### 9:30 – 10:15 | Building Our First Thematic Map  
 **Hands-On Exercise: Iowa County Population and Demographic Maps**
-- Connect to Data Directory
 - Add Iowa county boundary data
-- Connecting to ESRI background map 
-- Join population CSV data  
+- Connecting to ESRI background map using HCMGIS plugin
+- Add Data
+  - ia_border_utm15n
+  - airports
+  - highway
+  - ia_county_utm15n
+- Managing layer order 
 - Create a choropleth map  
 - Adjust classification methods  
-- Explore categorical vs. numerical data
+- Explore categorical vs. numerical data symbology
 
 ### 10:15 – 10:30 | Break
 
@@ -53,7 +58,12 @@ permalink: /qgis/agenda/
 - Connecting to OpenStreetMap (XYZ Tiles)  
 - Managing layer order  
 - Adjusting transparency  
-- Organizing projects effectively  
+- Organizing projects effectively
+- Edit the Vacations data layer
+- Add csv with coordinates
+  -  sampleCoordinates.csv
+- Join population CSV data (example 1 with total population)
+  - county_PopulationTotalTrends/counties_pop1990_2020.csv
 
 ### 11:30 – 12:00 | Introduction to Print Layout (Part 1)  
 - Creating a new layout  
@@ -69,7 +79,7 @@ permalink: /qgis/agenda/
 ### 1:00 – 1:45 | Symbology Deep Dive
 - Styling points, lines, polygons  
 - Classification and color ramps  
-- Refining the Iowa map  
+- Refining the Iowa or US map  
 
 ### 1:45 – 2:15 | Working with Attribute Tables
 - Sorting and filtering  
@@ -79,22 +89,27 @@ permalink: /qgis/agenda/
 ### 2:15 – 2:30 | Break
 
 ### 2:30 – 3:00 | Joining & Editing Data
-- CSV joins  
-- Digitizing features  
-- Saving edits  
+- CSV joins part 2
+  - county_census_acs_2017_5year_b11003.csv
+- Digitizing features
+  - Modify USA Map
+  - Make new Geometry
+- Saving edits
 
-### 3:00 – 3:45 | Geoprocessing Tools
+### 3:00 – 3:30 | Geoprocessing Tools - Introduction
 - Buffer  
 - Clip or Intersect  
-- Reprojecting data  
+- Reprojecting data
+- Geoocoding
+  - iowa_geocoding_safe_50.csv
 
-### 3:45 – 4:15 | Print Layout (Part 2 – Advanced)
+### 3:30 – 3:50 | Print Layout (Part 2 – Advanced)
 - Multiple map frames  
 - Overview map  
 - Legend refinement  
 - Export settings  
 
-### 4:15 – 4:30 | Wrap-Up
+### 3:50 – 4:30 | Practice and Wrap-Up
 - Final Q & A
 
 ### Resources
