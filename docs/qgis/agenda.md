@@ -37,7 +37,6 @@ permalink: /qgis/agenda/
 - Add some basic symbology
 
 ### 9:30 – 10:15 | Building Our First Thematic Map  
-**Hands-On Exercise: Iowa County Population and Demographic Maps**
 - Add Iowa county boundary data
 - Connecting to ESRI background map using HCMGIS plugin
 - Add Data
@@ -53,7 +52,6 @@ permalink: /qgis/agenda/
 ### 10:15 – 10:30 | Break
 
 ### 10:30 – 11:30 | Data & Layer Management  
-**Hands-On Exercises**
 - Adding vector and raster layers  
 - Connecting to OpenStreetMap (XYZ Tiles)  
 - Managing layer order  
@@ -82,7 +80,7 @@ permalink: /qgis/agenda/
 - Refining the Iowa or US map  
 
 ### 1:45 – 2:15 | Working with Attribute Tables
-- Work with Schools/2025_26_SchoolDistricts_Enrollment
+-Explore the Schools/2025_26_SchoolDistricts_Enrollment
 - Sorting and filtering  
 - Field Calculator  
 - Expressions  
@@ -95,18 +93,19 @@ permalink: /qgis/agenda/
 - Digitizing features
   - Modify USA Map
   - Make new Geometry
-- Saving edits
+- Saving edits and new geometry into a GeoPackage
 
 ### 3:00 – 3:30 | Geoprocessing Tools - Introduction
+- Temporary Files
+- Geoocoding
+  - iowa_geocoding_safe_50.csv
 - Buffer  
 - Clip or Intersect  
 - Reprojecting data
-- Geoocoding
-  - iowa_geocoding_safe_50.csv
 
 ### 3:30 – 3:50 | Print Layout (Part 2 – Advanced)
-- Multiple map frames  
-- Overview map  
+- Multiple map frames / Overview map
+  - Use Schools/2025_26_SchoolDistricts_Enrollment 
 - Legend refinement  
 - Export settings  
 
