@@ -17,12 +17,11 @@ permalink: /qgis/agenda/
 - Vector vs. Raster data  
 - Coordinate systems (conceptual overview)  
   - WSG 84, UTM 15 NAD 83, Mercator - commonly used with Web Maps
-- Extensions and the plugins we need to turn on as well as other tool bars/panels
-  -   ??
 
 ### 9:00 – 9:30 | Introduction to the QGIS Interface and 
-- Tour of the QGIS window
-  -
+- Tour of the QGIS window and Interface
+- Extensions and the plugins we need to turn on as well as other tool bars/panels
+  -   HCMGIS
 - Adding Data and file formats
   -  ShapeFiles
   -  GeoJSON
@@ -32,15 +31,18 @@ permalink: /qgis/agenda/
 - Start a new project and adding the "world" Easter Egg as a background 
 - Changing the Project CRS  
 - Saving and managing projects
+- Layer Management
 - Add some basic symbology
 
 ### 9:30 – 10:15 | Building Our First Thematic Map  
 **Hands-On Exercise: Iowa County Population and Demographic Maps**
-- Add Iowa county boundary data  
+- Connect to Data Directory
+- Add Iowa county boundary data
+- Connecting to ESRI background map 
 - Join population CSV data  
 - Create a choropleth map  
 - Adjust classification methods  
-- Explore categorical vs. numerical data  
+- Explore categorical vs. numerical data
 
 ### 10:15 – 10:30 | Break
 
