@@ -97,4 +97,6 @@ permalink: /qgis/agenda/
 ### Resources
 - [Documentation](https://www.qgis.org/resources/hub/)
 - [User Manual](https://docs.qgis.org/3.44/en/docs/user_manual/)
-- 
+- [Training Manual](https://docs.qgis.org/3.44/en/docs/training_manual/)
+- 3D
+  - Great Intro to 3D by [Jess Zimmerman on YouTube](https://www.youtube.com/watch?v=xcHG0ivjDxE)
