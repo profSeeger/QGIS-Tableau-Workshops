@@ -92,4 +92,9 @@ permalink: /qgis/agenda/
 - Export settings  
 
 ### 4:15 – 4:30 | Wrap-Up
-- Final Q & A  
+- Final Q & A
+
+### Resources
+- [Documentation](https://www.qgis.org/resources/hub/)
+- [User Manual](https://docs.qgis.org/3.44/en/docs/user_manual/)
+- 
