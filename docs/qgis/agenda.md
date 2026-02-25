@@ -76,12 +76,13 @@ permalink: /qgis/agenda/
 
 ## Afternoon Session
 
-### 1:00 – 1:45 | Symbology Deep Dive
+### 1:00 – 1:45 | Symbology Deeper Dive and Labels
 - Styling points, lines, polygons  
 - Classification and color ramps  
 - Refining the Iowa or US map  
 
 ### 1:45 – 2:15 | Working with Attribute Tables
+- Work with Schools/2025_26_SchoolDistricts_Enrollment
 - Sorting and filtering  
 - Field Calculator  
 - Expressions  
