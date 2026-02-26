@@ -22,7 +22,7 @@ permalink: /qgis/agenda/
 - Tour of the QGIS window and Interface
 - Extensions and the plugins we need to turn on as well as other tool bars/panels
   -   HCMGIS
-  -   Add Advanced Editiong Toolbar
+  -   Add the Advanced Digitizing Toolbar
 - Adding Data and file formats
   -  ShapeFiles
   -  GeoJSON
