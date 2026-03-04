@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='county_23+ (Multiple Connections)' inline='true' name='federated.17kj43w05fq87k0zwb2le047fhhp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2023 County Summary' name='excel-direct.1yuieq40933qab15tb15d0blfp1p'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/cjseeger_1/Library/CloudStorage/Box-Box/Indicators Program/projects-current/2025 Tableau Workshops/Data/School Data/2023 County Summary.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='2013 County Summary' name='excel-direct.02bwdyc1em67i618g4y3q07f49ff'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/cjseeger_1/Library/CloudStorage/Box-Box/Indicators Program/projects-current/2025 Tableau Workshops/Data/School Data/2013 County Summary.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[county_23].[County]' />
+              <expression op='[county_13].[County]' />
+            </expression>
+          </clause>
+          <relation connection='excel-direct.1yuieq40933qab15tb15d0blfp1p' name='county_23' table='[county_23$]' type='table'>
+            <columns gridOrigin='A1:F101:no:A1:F101:0' header='yes' outcome='2'>
+              <column datatype='string' name='County' ordinal='0' />
+              <column datatype='string' name='State' ordinal='1' />
+              <column datatype='integer' name='Total K12' ordinal='2' />
+              <column datatype='integer' name='Total PK12' ordinal='3' />
+              <column datatype='integer' name='Grade 1' ordinal='4' />
+              <column datatype='integer' name='Grade 12' ordinal='5' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.02bwdyc1em67i618g4y3q07f49ff' name='county_13' table='[county_13$]' type='table'>
+            <columns gridOrigin='A1:F101:no:A1:F101:0' header='yes' outcome='2'>
+              <column datatype='string' name='County' ordinal='0' />
+              <column datatype='string' name='State' ordinal='1' />
+              <column datatype='integer' name='Grade 1' ordinal='2' />
+              <column datatype='integer' name='Grade 12' ordinal='3' />
+              <column datatype='integer' name='K-12 Enrollment' ordinal='4' />
+              <column datatype='integer' name='PK-12 Enrollment' ordinal='5' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[County (county!13)]' value='[county_13].[County]' />
+          <map key='[County]' value='[county_23].[County]' />
+          <map key='[Grade 1 (county!13)]' value='[county_13].[Grade 1]' />
+          <map key='[Grade 12 (county!13)]' value='[county_13].[Grade 12]' />
+          <map key='[Grade 12]' value='[county_23].[Grade 12]' />
+          <map key='[Grade 1]' value='[county_23].[Grade 1]' />
+          <map key='[K-12 Enrollment]' value='[county_13].[K-12 Enrollment]' />
+          <map key='[PK-12 Enrollment]' value='[county_13].[PK-12 Enrollment]' />
+          <map key='[State (county!13)]' value='[county_13].[State]' />
+          <map key='[State]' value='[county_23].[State]' />
+          <map key='[Total K12]' value='[county_23].[Total K12]' />
+          <map key='[Total PK12]' value='[county_23].[Total PK12]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F101:no:A1:F101:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F101:no:A1:F101:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total K12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total K12]</local-name>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias>Total K12</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total PK12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total PK12]</local-name>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias>Total PK12</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grade 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grade 1]</local-name>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias>Grade 1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grade 12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grade 12]</local-name>
+            <parent-name>[county_23]</parent-name>
+            <remote-alias>Grade 12</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County (county!13)]</local-name>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State (county!13)]</local-name>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grade 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grade 1 (county!13)]</local-name>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias>Grade 1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grade 12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grade 12 (county!13)]</local-name>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias>Grade 12</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>K-12 Enrollment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[K-12 Enrollment]</local-name>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias>K-12 Enrollment</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PK-12 Enrollment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PK-12 Enrollment]</local-name>
+            <parent-name>[county_13]</parent-name>
+            <remote-alias>PK-12 Enrollment</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[County (county!13)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[State (county!13)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='county_23' datatype='table' name='[__tableau_internal_object_id__].[county!23_B3E4A424F7A7480BAC325C36EA11707B]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='State, County'>
+          <field>[State]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/jc/shm4nvzn23ggd7c14z5byn9m0000gq/T/tableau-temp/#TableauTemp_0xqctdl0gcn63b17a10nm1gevs45.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/20/2025 07:37:10 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[County (county!13)]' value='[Extract].[County]' />
+            <map key='[County]' value='[Extract].[County1]' />
+            <map key='[Grade 1 (county!13)]' value='[Extract].[Grade 1]' />
+            <map key='[Grade 12 (county!13)]' value='[Extract].[Grade 12]' />
+            <map key='[Grade 12]' value='[Extract].[Grade 121]' />
+            <map key='[Grade 1]' value='[Extract].[Grade 11]' />
+            <map key='[K-12 Enrollment]' value='[Extract].[K-12 Enrollment]' />
+            <map key='[PK-12 Enrollment]' value='[Extract].[PK-12 Enrollment]' />
+            <map key='[State (county!13)]' value='[Extract].[State]' />
+            <map key='[State]' value='[Extract].[State1]' />
+            <map key='[Total K12]' value='[Extract].[Total K12]' />
+            <map key='[Total PK12]' value='[Extract].[Total PK12]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>County1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[County]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>County1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>county_23</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State1</remote-alias>
+              <ordinal>1</ordinal>
+              <family>county_23</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total K12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total K12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total K12</remote-alias>
+              <ordinal>2</ordinal>
+              <family>county_23</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total PK12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total PK12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total PK12</remote-alias>
+              <ordinal>3</ordinal>
+              <family>county_23</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Grade 11</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Grade 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Grade 11</remote-alias>
+              <ordinal>4</ordinal>
+              <family>county_23</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>84</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Grade 121</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Grade 12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Grade 121</remote-alias>
+              <ordinal>5</ordinal>
+              <family>county_23</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>91</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>County</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[County (county!13)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>County</remote-alias>
+              <ordinal>6</ordinal>
+              <family>county_13</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State (county!13)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>7</ordinal>
+              <family>county_13</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Grade 1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Grade 1 (county!13)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Grade 1</remote-alias>
+              <ordinal>8</ordinal>
+              <family>county_13</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Grade 12</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Grade 12 (county!13)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Grade 12</remote-alias>
+              <ordinal>9</ordinal>
+              <family>county_13</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>91</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>K-12 Enrollment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[K-12 Enrollment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>K-12 Enrollment</remote-alias>
+              <ordinal>10</ordinal>
+              <family>county_13</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PK-12 Enrollment</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PK-12 Enrollment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PK-12 Enrollment</remote-alias>
+              <ordinal>11</ordinal>
+              <family>county_13</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[county!23_B3E4A424F7A7480BAC325C36EA11707B]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='county_23' id='county!23_B3E4A424F7A7480BAC325C36EA11707B'>
+            <properties context=''>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[county_23].[County]' />
+                    <expression op='[county_13].[County]' />
+                  </expression>
+                </clause>
+                <relation connection='excel-direct.1yuieq40933qab15tb15d0blfp1p' name='county_23' table='[county_23$]' type='table'>
+                  <columns gridOrigin='A1:F101:no:A1:F101:0' header='yes' outcome='2'>
+                    <column datatype='string' name='County' ordinal='0' />
+                    <column datatype='string' name='State' ordinal='1' />
+                    <column datatype='integer' name='Total K12' ordinal='2' />
+                    <column datatype='integer' name='Total PK12' ordinal='3' />
+                    <column datatype='integer' name='Grade 1' ordinal='4' />
+                    <column datatype='integer' name='Grade 12' ordinal='5' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.02bwdyc1em67i618g4y3q07f49ff' name='county_13' table='[county_13$]' type='table'>
+                  <columns gridOrigin='A1:F101:no:A1:F101:0' header='yes' outcome='2'>
+                    <column datatype='string' name='County' ordinal='0' />
+                    <column datatype='string' name='State' ordinal='1' />
+                    <column datatype='integer' name='Grade 1' ordinal='2' />
+                    <column datatype='integer' name='Grade 12' ordinal='3' />
+                    <column datatype='integer' name='K-12 Enrollment' ordinal='4' />
+                    <column datatype='integer' name='PK-12 Enrollment' ordinal='5' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3460FFD3-DD98-49BA-874D-66F6E13613B4}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{793E00D2-DBD3-4737-A860-9AC099075FA6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

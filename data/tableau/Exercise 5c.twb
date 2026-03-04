@@ -1,0 +1,1478 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <Layers />
+    <LayersPerPaneSpecPrimaryDS />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1+ (Multiple Connections)' inline='true' name='federated.1yvkv8704hmhoc148uv701p0w4xm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ACS23_mediumIncomes' name='excel-direct.0au8vcu10jshwy1802sjl1rej9fs'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/cjseeger_1/Library/CloudStorage/Box-Box/Indicators Program/projects-current/2025 Tableau Workshops/Data/ACS23_mediumIncomes.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='Iowa_County_simplified_10m_outline' name='ogrdirect.079vpda17zjayo1bbj4tz1jl1jfy'>
+            <connection class='ogrdirect' directory='/Users/cjseeger_1/Library/CloudStorage/Box-Box/Indicators Program/projects-current/2025 Tableau Workshops/Data/GIS' filename='Iowa_County_simplified_10m_outline.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='excel-direct.0au8vcu10jshwy1802sjl1rej9fs' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:R100:no:A1:R100:0' header='yes' outcome='2'>
+              <column datatype='string' name='GEOID' ordinal='0' />
+              <column datatype='string' name='NAME' ordinal='1' />
+              <column datatype='integer' name='medincomeE' ordinal='2' />
+              <column datatype='integer' name='medincomeM' ordinal='3' />
+              <column datatype='integer' name='age_u25E' ordinal='4' />
+              <column datatype='integer' name='age_u25M' ordinal='5' />
+              <column datatype='integer' name='age_25_44E' ordinal='6' />
+              <column datatype='integer' name='age_25_44M' ordinal='7' />
+              <column datatype='integer' name='age_45_64E' ordinal='8' />
+              <column datatype='integer' name='age_45_64M' ordinal='9' />
+              <column datatype='integer' name='age_65oE' ordinal='10' />
+              <column datatype='integer' name='age_65oM' ordinal='11' />
+              <column datatype='integer' name='total_foodStamp_SNAPE' ordinal='12' />
+              <column datatype='integer' name='total_foodStamp_SNAPM' ordinal='13' />
+              <column datatype='integer' name='foodStamp_SNAP_recievedE' ordinal='14' />
+              <column datatype='integer' name='foodStamp_SNAP_recievedM' ordinal='15' />
+              <column datatype='integer' name='foodStamp_SNAP_not_recievedE' ordinal='16' />
+              <column datatype='integer' name='foodStamp_SNAP_not_recievedM' ordinal='17' />
+            </columns>
+          </relation>
+          <relation connection='ogrdirect.079vpda17zjayo1bbj4tz1jl1jfy' name='Iowa_County_simplified_10m.shp' table='[Iowa_County_simplified_10m.shp]' type='table'>
+            <columns>
+              <column datatype='string' name='GEOID' ordinal='0' />
+              <column datatype='string' name='NAME' ordinal='1' />
+              <column datatype='string' name='geomType' ordinal='2' />
+              <column datatype='spatial' name='Geometry' ordinal='3' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[GEOID (Iowa_County_simplified_10m.shp)]' value='[Iowa_County_simplified_10m.shp].[GEOID]' />
+          <map key='[GEOID]' value='[Sheet1].[GEOID]' />
+          <map key='[Geometry]' value='[Iowa_County_simplified_10m.shp].[Geometry]' />
+          <map key='[NAME (Iowa_County_simplified_10m.shp)]' value='[Iowa_County_simplified_10m.shp].[NAME]' />
+          <map key='[NAME]' value='[Sheet1].[NAME]' />
+          <map key='[age_25_44E]' value='[Sheet1].[age_25_44E]' />
+          <map key='[age_25_44M]' value='[Sheet1].[age_25_44M]' />
+          <map key='[age_45_64E]' value='[Sheet1].[age_45_64E]' />
+          <map key='[age_45_64M]' value='[Sheet1].[age_45_64M]' />
+          <map key='[age_65oE]' value='[Sheet1].[age_65oE]' />
+          <map key='[age_65oM]' value='[Sheet1].[age_65oM]' />
+          <map key='[age_u25E]' value='[Sheet1].[age_u25E]' />
+          <map key='[age_u25M]' value='[Sheet1].[age_u25M]' />
+          <map key='[foodStamp_SNAP_not_recievedE]' value='[Sheet1].[foodStamp_SNAP_not_recievedE]' />
+          <map key='[foodStamp_SNAP_not_recievedM]' value='[Sheet1].[foodStamp_SNAP_not_recievedM]' />
+          <map key='[foodStamp_SNAP_recievedE]' value='[Sheet1].[foodStamp_SNAP_recievedE]' />
+          <map key='[foodStamp_SNAP_recievedM]' value='[Sheet1].[foodStamp_SNAP_recievedM]' />
+          <map key='[geomType]' value='[Iowa_County_simplified_10m.shp].[geomType]' />
+          <map key='[medincomeE]' value='[Sheet1].[medincomeE]' />
+          <map key='[medincomeM]' value='[Sheet1].[medincomeM]' />
+          <map key='[total_foodStamp_SNAPE]' value='[Sheet1].[total_foodStamp_SNAPE]' />
+          <map key='[total_foodStamp_SNAPM]' value='[Sheet1].[total_foodStamp_SNAPM]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R100:no:A1:R100:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEOID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GEOID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GEOID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medincomeE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[medincomeE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>medincomeE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medincomeM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[medincomeM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>medincomeM</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_u25E</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_u25E]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_u25E</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_u25M</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_u25M]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_u25M</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_25_44E</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_25_44E]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_25_44E</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_25_44M</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_25_44M]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_25_44M</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_45_64E</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_45_64E]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_45_64E</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_45_64M</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_45_64M]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_45_64M</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_65oE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_65oE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_65oE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_65oM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_65oM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>age_65oM</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_foodStamp_SNAPE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_foodStamp_SNAPE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_foodStamp_SNAPE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_foodStamp_SNAPM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_foodStamp_SNAPM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_foodStamp_SNAPM</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foodStamp_SNAP_recievedE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[foodStamp_SNAP_recievedE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>foodStamp_SNAP_recievedE</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foodStamp_SNAP_recievedM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[foodStamp_SNAP_recievedM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>foodStamp_SNAP_recievedM</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foodStamp_SNAP_not_recievedE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[foodStamp_SNAP_not_recievedE]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>foodStamp_SNAP_not_recievedE</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>foodStamp_SNAP_not_recievedM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[foodStamp_SNAP_not_recievedM]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>foodStamp_SNAP_not_recievedM</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEOID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEOID (Iowa_County_simplified_10m.shp)]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>GEOID</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME (Iowa_County_simplified_10m.shp)]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geomType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geomType]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>geomType</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='GEOID (Iowa County simplified 10m.shp)' datatype='string' name='[GEOID (Iowa_County_simplified_10m.shp)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Geoid' datatype='string' name='[GEOID]' role='dimension' type='nominal' />
+      <column caption='NAME (Iowa County simplified 10m.shp)' datatype='string' name='[NAME (Iowa_County_simplified_10m.shp)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Iowa_County_simplified_10m.shp' datatype='table' name='[__tableau_internal_object_id__].[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]' role='measure' type='quantitative' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]' role='measure' type='quantitative' />
+      <column caption='age 25 44E' datatype='integer' name='[age_25_44E]' role='measure' type='quantitative' />
+      <column caption='age 25 44M' datatype='integer' name='[age_25_44M]' role='measure' type='quantitative' />
+      <column caption='age 45 64E' datatype='integer' name='[age_45_64E]' role='measure' type='quantitative' />
+      <column caption='age 45 64M' datatype='integer' name='[age_45_64M]' role='measure' type='quantitative' />
+      <column caption='age 65oE' datatype='integer' name='[age_65oE]' role='measure' type='quantitative' />
+      <column caption='age 65oM' datatype='integer' name='[age_65oM]' role='measure' type='quantitative' />
+      <column caption='age u25E' datatype='integer' name='[age_u25E]' role='measure' type='quantitative' />
+      <column caption='age u25M' datatype='integer' name='[age_u25M]' role='measure' type='quantitative' />
+      <column caption='foodStamp SNAP not recievedE' datatype='integer' name='[foodStamp_SNAP_not_recievedE]' role='measure' type='quantitative' />
+      <column caption='foodStamp SNAP not recievedM' datatype='integer' name='[foodStamp_SNAP_not_recievedM]' role='measure' type='quantitative' />
+      <column caption='foodStamp SNAP recievedE' datatype='integer' name='[foodStamp_SNAP_recievedE]' role='measure' type='quantitative' />
+      <column caption='foodStamp SNAP recievedM' datatype='integer' name='[foodStamp_SNAP_recievedM]' role='measure' type='quantitative' />
+      <column caption='Geom Type' datatype='string' name='[geomType]' role='dimension' type='nominal' />
+      <column caption='Medincome E' datatype='integer' name='[medincomeE]' role='measure' type='quantitative' />
+      <column caption='Medincome M' datatype='integer' name='[medincomeM]' role='measure' type='quantitative' />
+      <column caption='total foodStamp SNAPE' datatype='integer' name='[total_foodStamp_SNAPE]' role='measure' type='quantitative' />
+      <column caption='total foodStamp SNAPM' datatype='integer' name='[total_foodStamp_SNAPM]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/jc/shm4nvzn23ggd7c14z5byn9m0000gq/T/tableau-temp/#TableauTemp_16sttvz1l0qdsc12ivr330rdd0h0.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/20/2025 02:40:44 AM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='Sheet1_162CEF20930D48E18439D9EF4DDF38E6' table='[Extract].[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]' type='table' />
+            <relation name='Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF' table='[Extract].[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]' type='table' />
+          </relation>
+          <cols>
+            <map key='[GEOID (Iowa_County_simplified_10m.shp)]' value='[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF].[GEOID]' />
+            <map key='[GEOID]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[GEOID]' />
+            <map key='[Geometry]' value='[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF].[Geometry]' />
+            <map key='[NAME (Iowa_County_simplified_10m.shp)]' value='[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF].[NAME]' />
+            <map key='[NAME]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[NAME]' />
+            <map key='[age_25_44E]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_25_44E]' />
+            <map key='[age_25_44M]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_25_44M]' />
+            <map key='[age_45_64E]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_45_64E]' />
+            <map key='[age_45_64M]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_45_64M]' />
+            <map key='[age_65oE]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_65oE]' />
+            <map key='[age_65oM]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_65oM]' />
+            <map key='[age_u25E]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_u25E]' />
+            <map key='[age_u25M]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[age_u25M]' />
+            <map key='[foodStamp_SNAP_not_recievedE]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[foodStamp_SNAP_not_recievedE]' />
+            <map key='[foodStamp_SNAP_not_recievedM]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[foodStamp_SNAP_not_recievedM]' />
+            <map key='[foodStamp_SNAP_recievedE]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[foodStamp_SNAP_recievedE]' />
+            <map key='[foodStamp_SNAP_recievedM]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[foodStamp_SNAP_recievedM]' />
+            <map key='[geomType]' value='[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF].[geomType]' />
+            <map key='[medincomeE]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[medincomeE]' />
+            <map key='[medincomeM]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[medincomeM]' />
+            <map key='[total_foodStamp_SNAPE]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[total_foodStamp_SNAPE]' />
+            <map key='[total_foodStamp_SNAPM]' value='[Sheet1_162CEF20930D48E18439D9EF4DDF38E6].[total_foodStamp_SNAPM]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>GEOID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEOID]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>GEOID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NAME]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>NAME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>medincomeE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[medincomeE]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>medincomeE</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>medincomeM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[medincomeM]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>medincomeM</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_u25E</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_u25E]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_u25E</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_u25M</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_u25M]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_u25M</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_25_44E</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_25_44E]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_25_44E</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_25_44M</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_25_44M]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_25_44M</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_45_64E</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_45_64E]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_45_64E</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_45_64M</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_45_64M]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_45_64M</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_65oE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_65oE]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_65oE</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_65oM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age_65oM]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>age_65oM</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_foodStamp_SNAPE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_foodStamp_SNAPE]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>total_foodStamp_SNAPE</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_foodStamp_SNAPM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_foodStamp_SNAPM]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>total_foodStamp_SNAPM</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>foodStamp_SNAP_recievedE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[foodStamp_SNAP_recievedE]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>foodStamp_SNAP_recievedE</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>foodStamp_SNAP_recievedM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[foodStamp_SNAP_recievedM]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>foodStamp_SNAP_recievedM</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>foodStamp_SNAP_not_recievedE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[foodStamp_SNAP_not_recievedE]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>foodStamp_SNAP_not_recievedE</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>foodStamp_SNAP_not_recievedM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[foodStamp_SNAP_not_recievedM]</local-name>
+              <parent-name>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</parent-name>
+              <remote-alias>foodStamp_SNAP_not_recievedM</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEOID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEOID (Iowa_County_simplified_10m.shp)]</local-name>
+              <parent-name>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</parent-name>
+              <remote-alias>GEOID</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NAME (Iowa_County_simplified_10m.shp)]</local-name>
+              <parent-name>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</parent-name>
+              <remote-alias>NAME</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>geomType</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[geomType]</local-name>
+              <parent-name>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</parent-name>
+              <remote-alias>geomType</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Iowa_County_simplified_10m.shp' id='Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF'>
+            <properties context=''>
+              <relation connection='ogrdirect.079vpda17zjayo1bbj4tz1jl1jfy' name='Iowa_County_simplified_10m.shp' table='[Iowa_County_simplified_10m.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='GEOID' ordinal='0' />
+                  <column datatype='string' name='NAME' ordinal='1' />
+                  <column datatype='string' name='geomType' ordinal='2' />
+                  <column datatype='spatial' name='Geometry' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF' table='[Extract].[Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF]' type='table' />
+            </properties>
+          </object>
+          <object caption='Sheet1' id='Sheet1_162CEF20930D48E18439D9EF4DDF38E6'>
+            <properties context=''>
+              <relation connection='excel-direct.0au8vcu10jshwy1802sjl1rej9fs' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:R100:no:A1:R100:0' header='yes' outcome='2'>
+                  <column datatype='string' name='GEOID' ordinal='0' />
+                  <column datatype='string' name='NAME' ordinal='1' />
+                  <column datatype='integer' name='medincomeE' ordinal='2' />
+                  <column datatype='integer' name='medincomeM' ordinal='3' />
+                  <column datatype='integer' name='age_u25E' ordinal='4' />
+                  <column datatype='integer' name='age_u25M' ordinal='5' />
+                  <column datatype='integer' name='age_25_44E' ordinal='6' />
+                  <column datatype='integer' name='age_25_44M' ordinal='7' />
+                  <column datatype='integer' name='age_45_64E' ordinal='8' />
+                  <column datatype='integer' name='age_45_64M' ordinal='9' />
+                  <column datatype='integer' name='age_65oE' ordinal='10' />
+                  <column datatype='integer' name='age_65oM' ordinal='11' />
+                  <column datatype='integer' name='total_foodStamp_SNAPE' ordinal='12' />
+                  <column datatype='integer' name='total_foodStamp_SNAPM' ordinal='13' />
+                  <column datatype='integer' name='foodStamp_SNAP_recievedE' ordinal='14' />
+                  <column datatype='integer' name='foodStamp_SNAP_recievedM' ordinal='15' />
+                  <column datatype='integer' name='foodStamp_SNAP_not_recievedE' ordinal='16' />
+                  <column datatype='integer' name='foodStamp_SNAP_not_recievedM' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Sheet1_162CEF20930D48E18439D9EF4DDF38E6' table='[Extract].[Sheet1_162CEF20930D48E18439D9EF4DDF38E6]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[GEOID]' />
+              <expression op='[GEOID (Iowa_County_simplified_10m.shp)]' />
+            </expression>
+            <first-end-point object-id='Sheet1_162CEF20930D48E18439D9EF4DDF38E6' />
+            <second-end-point object-id='Iowa_County_simplified_10m.shp_1A7A212243D941D7A4E29F22B9CA5EBF' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+    <datasource caption='Iowa_County_simplified_10m_outline' inline='true' name='federated.1d4hbsf08fgfh914zxn1910zgio6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Iowa_County_simplified_10m' name='ogrdirect.014473s07smrih156rbjx0sb4h9b'>
+            <connection class='ogrdirect' directory='/Users/cjseeger_1/Library/CloudStorage/Box-Box/Indicators Program/projects-current/2025 Tableau Workshops/Data/GIS' filename='Iowa_County_simplified_10m.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.014473s07smrih156rbjx0sb4h9b' name='Iowa_County_simplified_10m.shp' table='[Iowa_County_simplified_10m.shp]' type='table'>
+          <columns>
+            <column datatype='string' name='GEOID' ordinal='0' />
+            <column datatype='string' name='NAME' ordinal='1' />
+            <column datatype='string' name='geomType' ordinal='2' />
+            <column datatype='spatial' name='Geometry' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>GEOID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEOID]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>GEOID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geomType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geomType]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>geomType</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Iowa_County_simplified_10m.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Geoid' datatype='string' name='[GEOID]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Iowa_County_simplified_10m.shp' datatype='table' name='[__tableau_internal_object_id__].[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]' role='measure' type='quantitative' />
+      <column caption='Geom Type' datatype='string' name='[geomType]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/jc/shm4nvzn23ggd7c14z5byn9m0000gq/T/tableau-temp/#TableauTemp_1xjyqvb152vxji1bzyuch0ugky98.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/20/2025 02:42:47 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>GEOID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEOID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GEOID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NAME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>geomType</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[geomType]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>geomType</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Iowa_County_simplified_10m.shp</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Iowa_County_simplified_10m.shp' id='Iowa_County_simplified_10m.shp_E6421389CCE6430E857FEB5942813459'>
+            <properties context=''>
+              <relation connection='ogrdirect.014473s07smrih156rbjx0sb4h9b' name='Iowa_County_simplified_10m.shp' table='[Iowa_County_simplified_10m.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='GEOID' ordinal='0' />
+                  <column datatype='string' name='NAME' ordinal='1' />
+                  <column datatype='string' name='geomType' ordinal='2' />
+                  <column datatype='spatial' name='Geometry' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1+ (Multiple Connections)' name='federated.1yvkv8704hmhoc148uv701p0w4xm' />
+            <datasource caption='Iowa_County_simplified_10m_outline' name='federated.1d4hbsf08fgfh914zxn1910zgio6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1d4hbsf08fgfh914zxn1910zgio6'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NAME]' derivation='None' name='[none:NAME:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1yvkv8704hmhoc148uv701p0w4xm'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+            <column caption='age u25E' datatype='integer' name='[age_u25E]' role='measure' type='quantitative' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NAME]' derivation='None' name='[none:NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[age_u25E]' derivation='Sum' name='[sum:age_u25E:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1yvkv8704hmhoc148uv701p0w4xm].[sum:age_u25E:qk]' included-values='in-range'>
+            <min>0</min>
+          </filter>
+          <slices>
+            <column>[federated.1yvkv8704hmhoc148uv701p0w4xm].[sum:age_u25E:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+            <format attr='enabled' id='background' value='false' />
+            <format attr='enabled' id='barrier_line-land-polygon' value='false' />
+            <format attr='enabled' id='barrier_line-land-line' value='false' />
+            <format attr='enabled' id='national_park' value='false' />
+            <format attr='enabled' id='pitch' value='false' />
+            <format attr='enabled' id='industrial' value='false' />
+            <format attr='enabled' id='built-up-area' value='false' />
+            <format attr='enabled' id='water' value='false' />
+            <format attr='enabled' id='waterway-river-canal' value='false' />
+            <format attr='enabled' id='aeroway-polygon' value='false' />
+            <format attr='enabled' id='aeroway-runway' value='false' />
+            <format attr='enabled' id='aeroway-taxiway' value='false' />
+            <format attr='enabled' id='parks' value='false' />
+            <format attr='enabled' id='landcover_wood' value='false' />
+            <format attr='enabled' id='landcover_scrub' value='false' />
+            <format attr='enabled' id='landcover_grass' value='false' />
+            <format attr='enabled' id='landcover_crop' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes customization-axis='layer'>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane generated-title='Geometry' id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1d4hbsf08fgfh914zxn1910zgio6].[clct:Geometry:nk]' />
+              <lod column='[federated.1d4hbsf08fgfh914zxn1910zgio6].[none:NAME:nk]' />
+              <geometry column='[federated.1d4hbsf08fgfh914zxn1910zgio6].[clct:Geometry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane generated-title='Iowa_County_simplified_10m.shp' id='0' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1yvkv8704hmhoc148uv701p0w4xm].[sum:age_u25E:qk]' />
+              <lod column='[federated.1yvkv8704hmhoc148uv701p0w4xm].[clct:Geometry:nk]' />
+              <lod column='[federated.1yvkv8704hmhoc148uv701p0w4xm].[none:NAME:nk]' />
+              <geometry column='[federated.1yvkv8704hmhoc148uv701p0w4xm].[clct:Geometry:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1yvkv8704hmhoc148uv701p0w4xm].[Latitude (generated)]</rows>
+        <cols>[federated.1yvkv8704hmhoc148uv701p0w4xm].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{916EB414-5B60-4FD0-837E-E14464B7A2F0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1yvkv8704hmhoc148uv701p0w4xm].[sum:age_u25E:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1d4hbsf08fgfh914zxn1910zgio6].[none:GEOID:nk]</field>
+            <field>[federated.1d4hbsf08fgfh914zxn1910zgio6].[none:GEOID_Ou:nk]</field>
+            <field>[federated.1d4hbsf08fgfh914zxn1910zgio6].[none:NAME:nk]</field>
+            <field>[federated.1d4hbsf08fgfh914zxn1910zgio6].[none:Name_Out:nk]</field>
+            <field>[federated.1yvkv8704hmhoc148uv701p0w4xm].[none:NAME:nk]</field>
+            <field>[federated.1yvkv8704hmhoc148uv701p0w4xm].[sum:age_u25M:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BC3C8BFD-74C8-4094-ABF4-84BE368DF31F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dWZAs2XnX/+dkVlV39d63b9/9zr139k2aGc+MNGONJGOHZHkLYckYbJYw
+      hHnAQAQO/MSbiYCAJ14IAt54cEB4AYQFEsK2jC3LtrYZyZJmv3Pv3GXu0vtaXVWZh4esJWvt
+      6q6sOt/J/P8iuiv3/PLkOd//7Kl2dnaM7/sghBCSLXzf91EoFGzbQQghZMxo2wYQQgixAwWA
+      EEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWA
+      EEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWA
+      EEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyCgWAEEIyim/rxsYYGGMS
+      uZZSCsYYKKUSud6g9xwnSYVVUtcZFeOyb9zvrxeD2iHFXiKX46QdawLwn3//y3hnu4LWeK0A
+      GCioaDG2tbHUbbtSgAG6pZF4wlGt/9quEf1rv0S3hNe6zTTsrq/WX0P7mSb2P1hdQaXU7aj6
+      PdrObbxb01w2Bs1F03ZsbV+f5ebZrev1S/koYerKpa72DUL8eds29lo99GrtW8r376GiitGG
+      Hj7ySK5TxeLgEVFtcauOruzBTM81jqlfWynVOEfVdjb2136VUu1RNhYUpnVT7V8sNtZOOzzQ
+      vdI2iieXBnvQbi9N9djejS4JY5DQrm5vwhRnuid0IYT7Owi8PJTX6VobwdPXftXy07G9ttgr
+      lkZRIErJpuaM6r6hsW93E2dOLUF5nj0B2DUadycXbd1+dAwYNw/Wb6K0Ja0GrtX4PCpYnj1p
+      yZbB2Lm3jpI3Y9uMiB4OUJcPEHqzg51vqYDm76xj+YETdm4+IPtrmwgn5qG0tHTTpLpdQsUv
+      QucmbZvSm80dnFhYgpfP22sDmJkUHEBjQXZVjDvIzQ26hfz4KN9CV2iGpDUByHlyVZyQJKHj
+      yhCO5UeseWHPhLZuLQN6hWRwLMERIglrAjDhMeUSQohNrAnAVCFv69ZCYBEgCZiNSAhGx0xi
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

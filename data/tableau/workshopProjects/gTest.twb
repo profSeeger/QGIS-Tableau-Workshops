@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.25.1210.1815                               -->
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='gTest' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (FarmProduct)' inline='true' name='federated.07ylemc0hwshvv198ptje1qmjlmc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FarmProduct' name='cloudfile:googledrive-excel-direct.0zgk7k70itajes0zoosk50wy6emq'>
+            <connection class='cloudfile:googledrive-excel-direct' cleaning='no' cloudFileExtension='xlsx' cloudFileId='1Nt-kesCoxvkkvx65R985Ih7iaIQWLJyUyghOOYG8RaA' cloudFileMetadata_-_folder='root' cloudFileName='FarmProduct.xlsx' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1Nt-kesCoxvkkvx65R985Ih7iaIQWLJyUyghOOYG8RaA/export?mimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' compat='no' dataRefreshTime='' filename='FarmProduct.xlsx' interpretationMode='0' server='' server-oauth='server-custom' username='cjseeger@gmail.com' validate='no' workgroup-auth-mode='prompt' />
+          </named-connection>
+        </named-connections>
+        <relation connection='cloudfile:googledrive-excel-direct.0zgk7k70itajes0zoosk50wy6emq' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+            <column datatype='string' name='Product' ordinal='0' />
+            <column datatype='integer' name='Quantity' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B6:no:A1:B6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Product</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_BB811BAF2C934D5AB452F2A36DB07459]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_BB811BAF2C934D5AB452F2A36DB07459]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_BB811BAF2C934D5AB452F2A36DB07459]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/var/folders/jc/shm4nvzn23ggd7c14z5byn9m0000gq/T/tableau-temp/#TableauTemp_0m9gy0w1ex6bda19obcup0rml1u1.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='02/26/2026 09:22:25 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Sheet1 (FarmProduct)' increment-value='%null%' refresh-type='create' rows-inserted='5' timestamp-start='2026-02-26 21:22:25.876' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Product</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_BB811BAF2C934D5AB452F2A36DB07459]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Quantity</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_BB811BAF2C934D5AB452F2A36DB07459]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_BB811BAF2C934D5AB452F2A36DB07459'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-excel-direct.0zgk7k70itajes0zoosk50wy6emq' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B6:no:A1:B6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Product' ordinal='0' />
+                  <column datatype='integer' name='Quantity' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (FarmProduct)' name='federated.07ylemc0hwshvv198ptje1qmjlmc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07ylemc0hwshvv198ptje1qmjlmc'>
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Quantity]' derivation='Sum' name='[sum:Quantity:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.07ylemc0hwshvv198ptje1qmjlmc].[sum:Quantity:qk]</rows>
+        <cols>[federated.07ylemc0hwshvv198ptje1qmjlmc].[none:Product:nk]</cols>
+      </table>
+      <simple-id uuid='{170A8518-509E-4576-BCCC-C7B1FB53ED8B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07ylemc0hwshvv198ptje1qmjlmc].[none:Product:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9F28C301-767D-47D5-A7CE-6A1FE202F97A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAO8UlEQVR4nO3d23MU1b4H8O/qmc5cMslMLsAASSAXQoiUEUUIhrA1gFBUWYVQShXn6fwf
+      Ppx3H3z2VFn44CM+gKVCAihWJFIJBowB5JiIJGCuJMPcuifdvc4DYbbZSvZkm56ZuL6fF+jU
+      zHT3TH9ndc9a69dCSilBpCAhhNAKvRFEhcQAkNIYAFIaA0BKYwBIaQzA34RlWbAsq9CbseZ4
+      C70B9HwfffQRkskkXnjhBXR2dqKkpOS5j7158yYcx8GePXue+5gff/wRTU1N8Pv9bmzumsQA
+      FLHR0VGcPn0aZ8+eBQBUVlZienoaBw8exIULFxCLxXD8+HGMj4+ju7sbu3fvxsjICILBIGzb
+      hm3b8Pv9uHDhAqqrq/HZZ5+ho6MDb731FiKRSIH3rjgwAEXMtm08fvwYpmlifn4eH374IU6d
+      OoXr16/j5s2bqK2txccff4z79++jtrYWAHDr1i1Eo1GYpolkMolvv/0WJ0+ehKZpiEQiaGho
+      gM/nK/CeFQ9eAxSxRCKBO3fu4PTp02hqasLhw4dx4sQJjI+PY//+/Xj99ddx9+5drF+/Hi0t
+      LX94vuM4EEJg165dePnll1FZWYlt27YhEAgUYG+KEwNQxKqrq/HOO+9g586d0DQNfr8fQgi0
+      tbXh/PnzOHPmDLq6uvDbb7/h4sWLAIBwOIzu7m5cvnwZHo8H0WgUZ86cQW9vL8LhMM6dO4e5
+      ubkC71nxEBwLVLxmZ2cRiUTg8XhgmiZM00R5eTkcx8HY2BhM00R9fT3m5uZgmiYqKyvh9Xrx
+      66+/orS0FJFIBJqm4eHDh6iurobX68Xk5CRqamp4GoSnY4EYAFJW0Q2Gcxyn0JtAiimqALAj
+      h/LNlQBIKfH7M6vfL0sp+U1PRWPVA2DbNm7cuIHx8XEAQDweR19fH5LJJKSUePToEXp6ejA8
+      PAxeflChrXoAJiYmkMlkEI/HAQDj4+MwDAPpdBoLCwv44YcfcOjQITx48ACZTGa1V0+0Iqve
+      E7xp0ybYto1kMgkAaGlpQTqdBgAsLCwgFApB0zRUVFQglUpB13XYtg3g6UUwQ0H5tOoBEEI8
+      d1nTtOyFrmmaKCkpgRACXu/TzZBSQtf11d4kouda1QBIKTE1NYXR0VGk02lUVFQgmUxibGwM
+      CwsLaG1tBQAMDQ3hyZMn8Pl8ywaGyG2r2hEmpUQymUQikQAAlJaWIpPJIJPJwOPxIBKJwLZt
+      TE1NoaKiAmVlZUsO+Ewms+yQX6LVVHQ9wQwA5VPR9QQT5RsDQEpjAEhpDAApjQEgpXFOcJG6
+      fGMU//vZ96689o4t1fif/37dlddeaxiAImXZEkbGneHhmQXbldddi3gKREpjAEhpDAApjQEg
+      pTEApDQGgJTGAJDSGABSGgNASnO9LpCUEgsLC39YJioGqz4UIhaLoa+vDw0NDWhubsatW7cw
+      NTWFUCiE9vZ2DA8PY3JyEiUlJdi/fz80jY0QFY4rR19NTQ0sy4JpmpiZmUFXVxccx8HU1BQm
+      JibQ1dWFTCYD0zTdWD1Rzla9BQiHw4jFYkgmkzBNE4FAAF6vF+Xl5YjH4/D7/dA0DaFQCIZh
+      wOfzZUul2LbNUCyyLPdOEx3p8H1e5OpoUJ/Ph3Q6DcdxkEgkUF1dDdM0s9UjnoXh2UR4Tor/
+      J6/XvfpImtB4f4BFq14XaHR0FENDQzBNEz6fD8FgEBcvXszereTBgwe4dOkSLMviwU4Ft6oB
+      EEKgsbERjY2N2b/V19dnwyCEwN69e5csExWS6xNihBBL7kv7r8tEhcTfIElpDAApjQEgpTEA
+      pDQGgJTGAJDSGABSGgNASmMASGkMACmNASClMQCkNAaAlMYAkNIYAFIaA0BKcz0AlmUhHo/D
+      tp/elcRxnOxyEd2jmxTl6oywTCaDr776CoFAAKlUCocPH8a1a9cgpUQsFsOxY8fg8Xjc3ASi
+      ZbnaAjwrg9LZ2YmKigo8evQIlmWhs7MT5eXlSKfTbq6e6N9ytQWoqKiAbdv4/PPPMTMzg/Xr
+      18Pr9UIIka0H5DgO6wL9CdYFyg9XA6BpGjo7O2EYBq5du4aqqir89NNPcBwH8/PzCAQCrAv0
+      HKwLlB+uV4UYHBzEkydPUFdXh7KyMjQ0NKCnpwcVFRXQdfc+ZKJcuB6A3bt3w7bt7MG+bds2
+      NDQ0wOPxsC4QFZzrAdA0bUkFaCEEvF7en5uKAzvCSGkMACmNASClMQCkNAaAlMYAkNIYAFIa
+      A0BKYwBIaQwAKY0BIKUxAKQ0BoCUxgCQ0hgAUhoDQEpzPQBSSliWla0B9GyZqBi4OjXLcRwM
+      DAwgHo9D13Xs27cPIyMjGBsbQygUwt69e5fMFiPKN1ePPsdxMDs7i1dffRWWZWF+fh4PHjzA
+      wYMHEY/HWZqDCs7VFsDj8cDn8+HLL79EIBCA3+/PlkIJh8MwDCNbHwhgXaDfY12g/HA1APF4
+      HEIIvPvuuxgYGMD09DQymQyklEgmk/D5fKwL9BysC5Qfrp4CBQIBJJNJXL16FY8ePcK6devg
+      8/lw5coVJBIJfghUcK62ALqu49ixYzBNEz6fD0IIdHR0IJ1OIxAIuLlqopzkpS7Qvx7swWDQ
+      7dUS5YS/QZLSGABSGgNASmMASGkMACmNASClMQCkNAaAlMYAkNIYAFIaA0BKYwBIaQwAKY0B
+      IKUxAKQ0BoCUlvcASClhGEa+V0v0p1ydEWYYBm7cuIFUKoX79+/j7bffxr1795BOp2EYBo4e
+      PQqPx+PmJhAty9UA+P1+dHR0YH5+Hl6vF8FgEIZhoKurC1evXoVhGCgtLXVzE4iW5fqcYAAY
+      HR1FfX09pJTQdR1CCPj9fmQyGQQCAdYF+hOsC5QfrgcgkUjg8ePHaGtrg2VZSKVScBwHsVgs
+      WySLdYH+iHWB8sP1AMzOzqKhoQEejweapqG2thY9PT0IhUI82KngXA/Ali1bsv8XQmDHjh3Y
+      tm0bvF4vhBBur55oWXm5Bvg9IQR03b3mnWgl2BFGSmMASGkMACmNASClMQCkNAaAlMYAkNIY
+      AFIaA0BKYwBIaQwAKY0BIKUxAKQ0BoCUtqIATE5OIpFIQErp1vYQ5dWK5gNMTEygt7cXmzZt
+      QmtrK+rr6zmri9a0FQVg+/btkFLi/PnzuHXrFpqamnDixIllb3xtGAYmJyfh8XiwadMmGIaB
+      iYkJVFZWIhwOc1YYFdSKToH6+vowNDSEU6dO4b333kNrayvS6fRzHy+lxPfff49YLAbTNGHb
+      Nr777juYpone3l7Ytv2Xd4Dor1hRC6DrevYb/8qVK+js7Fz2FCiTyWBycjJbgSCTyUDTNLS0
+      tGBmZgbpdBqhUGjJNYXjOP/hrvzduHedJcH3+ZmcAiClxNDQED799FPcvn0bmqZhZmYGBw4c
+      WPZ5lmVBSoloNIrh4WFomgZNe9roeL1eOI4DKWW2JXAcJ1sjSHVuto5SSr7Pi3JuAerq6nDg
+      wAHs2LEDwWAQGzZs+LeT2wOBAAKBACorK7Fu3ToAT+sEOY6D2dnZbF2gZ6GQUvKiepHH4169
+      Ak0Ivs+Lcn6X+/r6UFVVhe7ubgDA5s2bcfz48WVre2qahl27dqG3txeRSARbt25FIBBAd3c3
+      GhsbWR2CCi7nAOzbtw+WZWHnzp3QNA2GYWS/uZcTjUaxfv16CCEghMCGDRtw5MiR7DJRIeX8
+      K1BZWRmuXLkC27ah6zrOnTuXc5lzTdOyB7sQYskyUSHl3AL09/fj0qVL+Pnnn1FSUoKmpibW
+      l6Q1L+cA7NmzB+FwGB6PB7quIxgM8luc1rycAvDsfH1wcBDxeBw+nw/RaBRvvvkmQ0Br2op+
+      a5NS4tChQ6iqqmJxW/pbWFEANm7ciLNnz0LXddTU1ODkyZO8xRGtaSsKQCAQwNzcXPZforVu
+      RQG4ffs23njjDdTV1aG/vx+2bbMFoDVtxcOhN27ciC+++CJ7ry+itWxFAdiyZQsmJyfx0ksv
+      IRKJ8Nuf1rwVzQdIpVKYnp7G48eP8fXXX3NqJK15K2oBqqqqoGkaHMfBvXv3src5JVqrVhSA
+      hw8f4s6dO5BSor29nUMhaM3L6RRISolkMomHDx8inU4jHA6jtrYWt2/fdnv7iFyV8zXAJ598
+      gpKSEhw4cAC6ruODDz7grCJa83I+BYrH4+jo6IDf70ddXR2Gh4fR3Nzs5rYRuS7nALS1teH9
+      999HTU0NxsfH8corr/xHF8BSSpimCb/fv+LnEq22nEeDHjp0CO3t7ZienkZVVRXKy8tz6gi7
+      fPkyTNNEeXk59uzZg4GBAaTTaRiGgaNHj7IvgQoq52sAIQTKysrQ0NCwooJWyWQSL774Itrb
+      22HbNgzDQFdXF4LBYM4zyojc4l7pgUXNzc0YGxtDf38//vGPf2SHUAQCgWw/wrOLadu2YZqm
+      25u0JljWgmuv7UiH7/MiVwNg2zbq6uqwfft2fPPNN0ilUkilUnAcB7FYLFsW5VmJjkwmw3Id
+      i7xe9ypmaEJjH84iVwPgOA4GBweRSqVQUlKCaDSKWCyGnp4elJaW8mCngnM1ALqu47XXXssO
+      mxZCoLW1Fc3NzZxRRkXB9WsAIQS8Xu+SZRbEomLBO8SQ0hgAUhoDQEpjAEhpDAApjQEgpTEA
+      pDQGgJTGAJDSXO8J/iuu/TiGwf/7zbXX/6/DLyIS4sQclRV1AO6Nz6K7f9S11z9xYAcDoDie
+      ApHSGABSGgNASmMASGkMACktLwFIJBKYmZkB8LTC9C+//IL5+XlWl6aCcz0AlmWht7cXAwMD
+      sG0b169fh2EY6O3thW3bbq+eaFmu9wOMjIygsrISCwsLME0TQgi0tLRgZmYG6XQaoVBoyeMd
+      x/nngssNhCPl0vUVFfd2XgJFvN/55WoAkskk7t69i9bWVoyMjMAwDGja00bH6/XCtm1IKbMt
+      geM4Swruuv0h2ZZVtAV+3WwdpZRFu9/55noLsHXrVkxNTWFubg62bSORSMBxHMzOziIYDELT
+      tGwopJRLSqVoHnfP0HRdL9rSLB6Pex+NJkTR7ne+uRqA0tJStLW1wTRNbN68GdXV1di1axe6
+      u7vR2NjI6hBUcHkZC+Tz+bB161YAQDQaxZEjRyCEYF0gKri8D4bjgU/FhB1hpLT/B9oiiyC5
+      dbXUAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
