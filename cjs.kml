@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<!-- Styles -->
+<Style id="sightseeing">
+  <IconStyle>
+    <color>ff0000ff</color>
+    <scale>1.2</scale>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+
+<Style id="lodging">
+  <IconStyle>
+    <color>ff00ff00</color>
+    <scale>1.2</scale>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+
+<Style id="scenic">
+  <IconStyle>
+    <color>ffffa500</color>
+    <scale>1.2</scale>
+    <Icon>
+      <href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+
+<!-- DAY 1 -->
+<Placemark><name>Reykjavik</name><styleUrl>#lodging</styleUrl><Point><coordinates>-21.8277,64.1265</coordinates></Point></Placemark>
+<Placemark><name>Thingvellir National Park</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-21.1290,64.2559</coordinates></Point></Placemark>
+<Placemark><name>Geysir</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-20.3000,64.3104</coordinates></Point></Placemark>
+<Placemark><name>Gullfoss</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-20.1193,64.3275</coordinates></Point></Placemark>
+<Placemark><name>Secret Lagoon</name><styleUrl>#scenic</styleUrl><Point><coordinates>-20.3223,64.1377</coordinates></Point></Placemark>
+
+<!-- DAY 2 -->
+<Placemark><name>Seljalandsfoss</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-19.9886,63.6156</coordinates></Point></Placemark>
+<Placemark><name>Skogafoss</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-19.5110,63.5321</coordinates></Point></Placemark>
+<Placemark><name>Reynisfjara Beach</name><styleUrl>#scenic</styleUrl><Point><coordinates>-19.0477,63.4045</coordinates></Point></Placemark>
+<Placemark><name>Vik (Stay)</name><styleUrl>#lodging</styleUrl><Point><coordinates>-19.0060,63.4186</coordinates></Point></Placemark>
+
+<!-- DAY 3 -->
+<Placemark><name>Skaftafell</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-16.9750,64.0167</coordinates></Point></Placemark>
+<Placemark><name>Jokulsarlon Glacier Lagoon</name><styleUrl>#scenic</styleUrl><Point><coordinates>-16.2306,64.0485</coordinates></Point></Placemark>
+<Placemark><name>Hofn (Stay)</name><styleUrl>#lodging</styleUrl><Point><coordinates>-15.2082,64.2539</coordinates></Point></Placemark>
+
+<!-- DAY 4 -->
+<Placemark><name>Seydisfjordur</name><styleUrl>#scenic</styleUrl><Point><coordinates>-14.0090,65.2600</coordinates></Point></Placemark>
+<Placemark><name>Egilsstadir (Stay)</name><styleUrl>#lodging</styleUrl><Point><coordinates>-14.3948,65.2671</coordinates></Point></Placemark>
+
+<!-- DAY 5 -->
+<Placemark><name>Namaskard</name><styleUrl>#scenic</styleUrl><Point><coordinates>-16.8135,65.6400</coordinates></Point></Placemark>
+<Placemark><name>Hverfjall Crater</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-16.8570,65.6090</coordinates></Point></Placemark>
+<Placemark><name>Dimmuborgir</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-16.9120,65.5900</coordinates></Point></Placemark>
+<Placemark><name>Myvatn Nature Baths</name><styleUrl>#scenic</styleUrl><Point><coordinates>-16.8470,65.6300</coordinates></Point></Placemark>
+<Placemark><name>Myvatn (Stay)</name><styleUrl>#lodging</styleUrl><Point><coordinates>-16.9070,65.6050</coordinates></Point></Placemark>
+
+<!-- DAY 6 -->
+<Placemark><name>Dettifoss</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-16.3840,65.8140</coordinates></Point></Placemark>
+<Placemark><name>Godafoss</name><styleUrl>#sightseeing</styleUrl><Point><coordinates>-17.3264,65.6828</coordinates></Point></Placemark>
+<Placemark><name>Akureyri (Stay)</name><styleUrl>#lodging</styleUrl><Point><coordinates>-18.0878,65.6885</coordinates></Point></Placemark>
+
+<!-- DAY 7 -->
+<Placemark><name>Hvítserkur</name><styleUrl>#scenic</styleUrl><Point><coordinates>-20.6350,65.6070</coordinates></Point></Placemark>
+<Placemark><name>Kirkjufell</name><styleUrl>#scenic</styleUrl><Point><coordinates>-23.3050,64.9260</coordinates></Point></Placemark>
+<Placemark><name>Snaefellsnes (Stay)</name><styleUrl>#lodging</styleUrl><Point><coordinates>-23.0000,64.8000</coordinates></Point></Placemark>
+
+<!-- DAY 8 -->
+<Placemark><name>Hraunfossar</name><styleUrl>#scenic</styleUrl><Point><coordinates>-20.9780,64.7030</coordinates></Point></Placemark>
+<Placemark><name>Blue Lagoon</name><styleUrl>#scenic</styleUrl><Point><coordinates>-22.4495,63.8804</coordinates></Point></Placemark>
+
+</Document>
+</kml>
