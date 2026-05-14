@@ -14,11 +14,11 @@ Use the buttons in the top right or the links below to navigate directly to a wo
 ---
 ## Upcoming Workshops
 
-- **February 25:** [Introduction to QGIS Workshop PDF flyer](/assets/pdf/qgis_flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}  
-- **February 26:** [Unlocking the Power of Community Data: Introduction to Tableau Public Workshop PDF flyer](/assets/pdf/tableau_Flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}
+- **September 23:** [Introduction to QGIS Workshop PDF flyer](/assets/pdf/qgis_flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}  
+- **September 24:** [Unlocking the Power of Community Data: Introduction to Tableau Public Workshop PDF flyer](/assets/pdf/tableau_Flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}
 
-You can register at [Iowa State Registration](https://go.iastate.edu/JAFV8P){:target="_blank" rel="noopener noreferrer"} for a single workshop or bundle both for a discounted price.
-
+Registration will open soon, You can register for a single workshop or bundle both for a discounted price.
+//[Iowa State Registration](https://go.iastate.edu/JAFV8P){:target="_blank" rel="noopener noreferrer"} 
 ---
 <div class="button-container">
   <a href="/QGIS-Tableau-Workshops/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
