@@ -18,7 +18,10 @@ Use the buttons in the top right or the links below to navigate directly to a wo
 - **September 24:** [Unlocking the Power of Community Data: Introduction to Tableau Public Workshop PDF flyer](/assets/pdf/tableau_Flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}
 
 Registration will open soon, You can register for a single workshop or bundle both for a discounted price.
-//[Iowa State Registration](https://go.iastate.edu/JAFV8P){:target="_blank" rel="noopener noreferrer"} 
+<!-- 
+[Iowa State Registration](https://go.iastate.edu/JAFV8P){:target="_blank" rel="noopener noreferrer"} 
+-->
+
 ---
 <div class="button-container">
   <a href="/QGIS-Tableau-Workshops/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
