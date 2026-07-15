@@ -49,7 +49,7 @@ No prior experience with Tableau is required.
 
 ## Next Workshop Offering
 
-**February 26, 2026**  
+**September 24, 2026**  
 **8:30 a.m. – 4:00 p.m.**
 
 Room 1060  
@@ -58,9 +58,9 @@ Alliant Energy Ag Innovation Lab
 Ames, Iowa  
 
 **Register here:**  
-👉 [https://go.iastate.edu/4EBPFN](https://go.iastate.edu/4EBPFN)
+👉 [https://go.iastate.edu/B7SRTF)](https://go.iastate.edu/B7SRTF)
 
-Participants attending the this may register for the QGIS workshop on February 25th at a special bundled workshop price.
+Participants interested in the **QGIS Workshop (September 23)** may register for a special discounted bundle workshop price.
 
 ---
 
