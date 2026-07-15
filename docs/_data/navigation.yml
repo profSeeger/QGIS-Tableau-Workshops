@@ -14,7 +14,11 @@ main:
 sidebar:
   - title: "About"
     url: /about/
-  - title: "QGIS"
+  - title: "R"
+    children:
+    - title: " Overview"
+    url: /r/overview/
+    - title: "QGIS"
     children:
       - title: " Overview"
         url: /qgis/overview/
