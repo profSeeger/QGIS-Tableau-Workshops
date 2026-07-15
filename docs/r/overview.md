@@ -1,6 +1,6 @@
 ---
-title: "QGIS Workshop Overview"
-permalink: /qgis/overview/
+title: "R Workshop Overview"
+permalink: /r/overview/
 layout: single
 ---
 
