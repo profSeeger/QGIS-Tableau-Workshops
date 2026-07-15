@@ -1,0 +1,2 @@
+- **September 23:** [Introduction to QGIS Workshop PDF flyer](/assets/pdf/qgis_flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}  
+- **September 24:** [Unlocking the Power of Community Data: Introduction to Tableau Public Workshop PDF flyer](/assets/pdf/tableau_Flyer_feb2026.pdf){:target="_blank" rel="noopener noreferrer"}
