@@ -25,7 +25,9 @@ Registration will open soon, You can register for a single workshop or bundle bo
 -->
 
 ---
+For detailed information and an outline of each workshop select one of the buttons below.
 <div class="button-container">
+  <a href="/R Introduction/r/overview/" class="btn btn--primary">Introduction to R Workshop</a>
   <a href="/QGIS-Tableau-Workshops/qgis/overview/" class="btn btn--primary">Introduction to QGIS Workshop</a>
   <a href="/QGIS-Tableau-Workshops/tableau/overview/" class="btn btn--primary">Introduction to Tableau Workshop</a>
 </div>
