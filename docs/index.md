@@ -16,7 +16,7 @@ Use the buttons in the top right or the links below to navigate directly to a wo
 
 - **September 22:** Introduction to R and Geospatial - (Taught by Jay Maxwell) <em>Registration available soon</em>
 - **September 23:** Introduction to QGIS Workshop - (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"} 
-- **September 24:** Unlocking the Power of Community Data: Introduction to Tableau Public (Taught by Chris Seeger) Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"} 
+- **September 24:** Unlocking the Power of Community Data: Introduction to Tableau Public (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"} 
   
 Registration will open soon, You can register for a single workshop or bundle both for a discounted price.
 
