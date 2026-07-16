@@ -20,7 +20,6 @@ Use the buttons in the top right or the links below to navigate directly to a wo
   
 Registration will open soon, You can register for a single workshop or bundle both for a discounted price.
 
-
 <!-- 
 -->
 
