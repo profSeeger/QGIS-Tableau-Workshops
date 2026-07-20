@@ -18,6 +18,8 @@ sidebar:
     children:
       - title: " Overview"
         url: /r/overview/
+      - title: " Software Setup"
+        url: /r/software-setup/
   - title: "QGIS"
     children:
       - title: " Overview"
