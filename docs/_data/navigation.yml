@@ -18,7 +18,7 @@ sidebar:
     children:
       - title: " Overview"
         url: /r/overview/
-    - title: "QGIS"
+  - title: "QGIS"
     children:
       - title: " Overview"
         url: /qgis/overview/
