@@ -6,41 +6,44 @@ layout: single
 
 {{ page.last_modified_at }}  
 
-Description for R ...
+**R** is a powerful, open-source programming language used for data analysis, visualization, and statistical computing. This hands-on workshop introduces participants to the fundamentals of R and the RStudio development environment, providing a practical foundation for working with data.  
 
-**QGIS** is a widely used, multi-platform mapping application utilizede by governments, researchers, nonprofit organizations, and private industry professionals around the world. It enables users to visualize, analyze, and communicate spatial data in ways that spreadsheets and tables alone cannot.
-
-This hands-on workshop emphasizes learning by doing. Participants will work directly with real-world datasets while building practical skills they can immediately apply to their own projects.
+Participants will learn core programming concepts such as data types, variables, vectors, and data frames. The course then introduces the tidyverse, a modern collection of packages that simplifies data manipulation and analysis through a consistent and intuitive workflow, before exploring data visualization techniques in R. Finally, participants will apply these skills to create explore and visualize spatial data from the U.S. Census Bureau.  
 
 ---
 ## What You Will Learn
 
 By the end of the workshop, participants will:
 
-- Navigate the QGIS interface with confidence  
-- Load and manage spatial data (vector and raster formats)  
-- Apply symbology and styling to improve map clarity and communication  
-- Organize layers effectively for analysis and presentation  
-- Create publication-ready maps for sharing, exporting, or printing  
-- Understand core GIS concepts that transfer across platforms  
+- Navigate the RStudio environment and apply fundamental R programming concepts, including variables, vectors, and data frames.
+- Perform basic data analysis and create effective visualizations using R to explore and communicate data-driven insights.
+- Use tidyverse tools and syntax to import, transform, summarize, and prepare data for analysis.  
+- Work with spatial and geographic data to create maps and visualizations that support decision-making and community understanding.
+
+This workshop is designed for community development professionals, nonprofit staff, public sector employees, researchers, students, and anyone interested in using data to better understand communities. Participants should be comfortable working with computers, but no prior programming experience is required. 
 
 ---
 ## Who Should Attend
 
 This workshop is ideal for:
 
-- Faculty, staff, students, and professionals new to GIS  
-- Current ArcGIS users exploring open-source alternatives  
-- Researchers and analysts working with geographic or community data  
-- Anyone interested in improving how they visualize and communicate spatial information  
+- Faculty, staff, students, and professionals new to R  
+- Researchers and analysts working with research orcommunity data  
+- Anyone interested in improving how they visualize and communicate information  
 
-No prior QGIS experience is required.
+No prior Rexperience is required.
 
 ---
+## Format
+    In-person: One full day of instruction at the ISU Research Park. 
+    Hands-on learning: Bring your own laptop and follow along step by step 
+---
+
+
 
 ## Next Workshop Offering
 
-**February 25, 2026**  
+**September 22, 2026**  
 **8:30 a.m. – 4:00 p.m.**
 
 Room 1060  
@@ -49,12 +52,10 @@ Alliant Energy Ag Innovation Lab
 Ames, Iowa  
 
 **Register here:**  
-👉 [https://go.iastate.edu/4EBPFN](https://go.iastate.edu/4EBPFN)
-
-Participants interested in the **Tableau Workshop (February 26)** may register for a special discounted bundle workshop price.
+👉 Available Soon!
 
 ---
 
 ## Additional Information
 
-For software setup instructions, detailed agenda information, and additional QGIS resources, please use the navigation menu on the left.
+For software setup instructions, detailed agenda information, and additional R resources, please use the navigation menu on the left.
