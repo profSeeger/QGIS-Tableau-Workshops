@@ -35,8 +35,8 @@ No prior Rexperience is required.
 
 ---
 ## Format
-    In-person: One full day of instruction at the ISU Research Park. 
-    Hands-on learning: Bring your own laptop and follow along step by step 
+In-person: One full day of instruction at the ISU Research Park. 
+Hands-on learning: Bring your own laptop and follow along step by step 
 ---
 
 
