@@ -14,7 +14,7 @@ Use the buttons in the top right or the links below to navigate directly to a wo
 ---
 ## Upcoming Workshops
 
-- **September 22:** Introduction to R and Geospatial - (Taught by Jay Maxwell) <em>Registration available soon</em>
+- **September 22:** R Fundamentals for Data Exploration and Visualization - (Taught by Jay Maxwell) <em>Registration and flyer available soon</em>
 
 - **September 23:** Introduction to QGIS Workshop [PDF Flyer](/assets/pdf/qgis_flyer_sept2026.pdf){:target="_blank" rel="noopener noreferrer"}  - (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"}
 - 
