@@ -17,7 +17,7 @@ Use the buttons in the top right or the links below to navigate directly to a wo
 - **September 22:** R Fundamentals for Data Exploration and Visualization - (Taught by Jay Maxwell) <em>Registration and flyer available soon</em>
 
 - **September 23:** Introduction to QGIS Workshop [PDF Flyer](/assets/pdf/qgis_flyer_sept2026.pdf){:target="_blank" rel="noopener noreferrer"}  - (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"}
-- 
+  
 - **September 24:** Unlocking the Power of Community Data: Introduction to Tableau Public [PDF Flyer](/assets/pdf/tableau_Flyer_sept2026.pdf){:target="_blank" rel="noopener noreferrer"} - (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"} 
 
 
