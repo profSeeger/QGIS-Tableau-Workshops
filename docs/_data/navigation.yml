@@ -16,8 +16,8 @@ sidebar:
     url: /about/
   - title: "R"
     children:
-    - title: " Overview"
-    url: /r/overview/
+      - title: " Overview"
+        url: /r/overview/
     - title: "QGIS"
     children:
       - title: " Overview"
