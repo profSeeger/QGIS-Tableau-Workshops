@@ -1,5 +1,5 @@
 ---
-title: "R Workshop Overview"
+title: "R Fundamentals for Data Exploration and Visualization"
 permalink: /r/overview/
 layout: single
 ---
