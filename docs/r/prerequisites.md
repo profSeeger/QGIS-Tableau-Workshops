@@ -9,6 +9,6 @@ This workshop assumes general computer proficiency, including:
 
 - Navigating files and folders
 - Installing software
-- Working with common file formats (e.g., CSV, Excel, PDF)
+- Working with common file formats (e.g., CSV or Excel)
 
-No prior experience with GIS is required. Participants with ArcGIS Pro experience will find the transition to QGIS straightforward, but beginners are equally welcome.
+No prior experience with R is required.
