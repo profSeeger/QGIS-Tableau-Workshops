@@ -12,7 +12,7 @@ main:
  
 # Sidebar navigation (docs-style)
 sidebar:
-  - title: "About"
+  - title: "About Instructors"
     url: /about/
   - title: "R"
     children:
