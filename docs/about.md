@@ -3,11 +3,9 @@ title: "About the Instructors"
 permalink: /about/
 ---
 **Instructors**
-
+The workshops will be taught by **Professor Christopher J. Seeger, GISP, PLA**  and Extension Specialist Jay Maxwell.
 
 ![Professor Christopher J. Seeger](/assets/images/cjseeger_0.jpg){:width="120px" style="float:left; margin-right:15px;"}
-
-The workshops will be taught by **Professor Christopher J. Seeger, GISP, PLA**  and Extension Specialist Jay Maxwell
 
 Professor Seeger is a Morrill Professor and Extension Specialist in the Department of Landscape Architecture at **Iowa State University**, where his work focuses on **data crowdsourcing, geospatial technology, data visualization, and community-driven mapping and planning**. He has led extension and outreach programs in spatial data and geospatial tools for decades and has trained hundreds of learners through in‑person and online workshops and courses.
 
