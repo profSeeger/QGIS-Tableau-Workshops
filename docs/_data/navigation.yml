@@ -3,6 +3,8 @@ main:
 #- title: "Home"
 #  url: /
 
+ - title: "R"
+   url: /r/overview/
  - title: "QGIS"
    url: /qgis/overview/
  - title: "Tableau"
@@ -20,8 +22,12 @@ sidebar:
         url: /r/overview/
       - title: " Software Setup"
         url: /r/software-setup/
+      - title: " Agenda"
+        url: /r/agenda/
       - title: " Workshop Data"
         url: /r/workshop-data/
+      - title: " Prerequisites"
+        url: /r/prerequisites/
   - title: "QGIS"
     children:
       - title: " Overview"
@@ -33,7 +39,7 @@ sidebar:
       - title: " Workshop Data"
         url: /qgis/workshop-data/
       - title: " Prerequisites"
-        url: /prerequisites/
+        url: /qgis/prerequisites/
   - title: "Tableau Public"
     children:
       - title: " Overview"
