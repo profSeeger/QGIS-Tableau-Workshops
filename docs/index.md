@@ -7,14 +7,15 @@ header:
 custom_head: head/custom.html
 ---
 
-Welcome to [Professor Seeger's](/QGIS-Tableau-Workshops/about/) Workshop Resources. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
+Welcome to the Community Data Workshop's resource site. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
 
 Use the buttons in the top right or the links below to navigate directly to a workshop.
 
 ---
 ## Upcoming Workshops
 
-- **September 22:** R Fundamentals for Data Exploration and Visualization - (Taught by Jay Maxwell) <em>Registration and flyer available soon</em>
+- **September 22:** R Fundamentals for Data Exploration and Visualization [PDF Flyer](/assets/pdf/r_flyer_sept2026.pdf){:target="_blank" rel="noopener noreferrer"} - (Taught by Jay Maxwell) [Registration](https://go.iastate.edu/RZEDSG){:target="_blank" rel="noopener noreferrer"} 
+
 
 - **September 23:** Introduction to QGIS Workshop [PDF Flyer](/assets/pdf/qgis_flyer_sept2026.pdf){:target="_blank" rel="noopener noreferrer"}  - (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"}
   
