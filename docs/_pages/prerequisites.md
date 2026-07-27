@@ -6,7 +6,7 @@ permalink: /prerequisites/
 ### Technology Requirements
 
 - Participants are expected to bring their own laptop.
-- If you are unable to bring a laptop, please contact the instructor in advance and we will try to arrange access to one.
+- If you are unable to bring a laptop, please contact the instructor a week in advance and we will try to arrange access to one.
 
 Installation instructions for the required software will be provided one week before the workshop to ensure everyone is using the most up-to-date version.
 
@@ -19,7 +19,7 @@ Please install the software and download the data **before** arriving at the wor
 
 ### Experience & Background
 
-No prior experience with Tableau, GIS, or mapping software is required.
+No prior experience with Tableau, GIS, R or mapping software is required.
 
 If you are comfortable using a computer, downloading and installing software, and working with files and folders, you will be well prepared.
 
