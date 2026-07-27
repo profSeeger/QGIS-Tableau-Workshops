@@ -20,6 +20,8 @@ sidebar:
         url: /r/overview/
       - title: " Software Setup"
         url: /r/software-setup/
+      - title: " Workshop Data"
+        url: /r/workshop-data/
   - title: "QGIS"
     children:
       - title: " Overview"
