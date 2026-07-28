@@ -25,7 +25,6 @@ You are welcome to install either version, but know that there are some subtle c
 
 ---
 
-
 ## Verify Installation
 
 Before arriving at the workshop:
