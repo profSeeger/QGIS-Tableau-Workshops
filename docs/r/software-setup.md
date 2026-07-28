@@ -18,7 +18,9 @@ If you encounter any issues installing QGIS, please contact the instructor **bef
 ---
 
 **Software:**   
-This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide] (https://docs.posit.co/ide/user/)
+This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide](https://docs.posit.co/ide/user/)
+
+
 
 Prior to the Workshop, you will need to install or update R and RStudio.
 
@@ -42,26 +44,6 @@ For this workshop, you should install the **Standalone version** only.
 
 ### Recommended Version for Windows
 
-- Install the **Long Term Release (LTR)** version if available.  
-- You may optionally install the latest version (**3.44**) if preferred.
-
-4. Run the downloaded installer.  
-5. Follow the default installation prompts.
-
-After installation, open QGIS to confirm it launches properly.
-
----
-
-## macOS Installation Instructions
-
-1. 1. Go to: [QGIS website](https://qgis.org){:target="_blank"}
-2. Click **Download Now**.  
-3. Download **QGIS 3.44 for macOS**.
-
-> For macOS users, **QGIS 3.44** is stable and has been designated as the future Long Term Release (LTR). This is the recommended version.
-
-4. Open the downloaded `.dmg` file.  
-5. Drag QGIS into your Applications folder.
 
 ---
 
