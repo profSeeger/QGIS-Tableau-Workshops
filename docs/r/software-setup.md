@@ -17,7 +17,7 @@ If you encounter any issues installing QGIS, please contact the instructor **bef
 
 ---
 
-> **Software:**   
+**Software:**   
 This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide] (https://docs.posit.co/ide/user/)
 
 > Prior to the Workshop, you will need to install or update R and RStudio.
