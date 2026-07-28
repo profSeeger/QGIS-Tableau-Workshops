@@ -1,5 +1,5 @@
 ---
-title: "Installing R"
+title: "Installing R and RStudio"
 permalink: /r/software-setup/
 ---
 
@@ -17,9 +17,15 @@ If you encounter any issues installing QGIS, please contact the instructor **bef
 
 ---
 
+> **Software:**   
+This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide] (https://docs.posit.co/ide/user/)
+
+> Prior to the Workshop, you will need to install or update R and RStudio.
+
+
 > **Current Version Information (July 27, 2026):**   
-> - The latest release is **QGIS 3.44**.  
-> - For macOS users, **QGIS 3.44** is stable and has been designated as the future Long Term Release (LTR) and is therefore the recommended version.
+> - The latest release is **R 3.44**.  
+> - The latest release is **RStudio 3.44**. 
 
 Please install the appropriate version for your operating system using the guidance below.
 
@@ -57,23 +63,12 @@ After installation, open QGIS to confirm it launches properly.
 4. Open the downloaded `.dmg` file.  
 5. Drag QGIS into your Applications folder.
 
-### First-Time Launch on macOS
-
-When opening QGIS for the first time, macOS may block the application because it was downloaded from the internet.
-
-If this happens:
-
-- Go to **System Settings → Privacy & Security**  
-- Scroll to the message indicating QGIS was blocked  
-- Click **Allow Anyway**  
-- Re-open QGIS and confirm you want to proceed  
-
 ---
 
 ## Verify Installation
 
 Before arriving at the workshop:
 
-- Open QGIS.  
+- Open RStudio.  
 - Confirm it launches without errors.  
 - Verify the version number under **Help → About**.
