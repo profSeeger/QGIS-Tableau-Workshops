@@ -5,7 +5,7 @@ permalink: /tableau/software-setup/
 
 To participate in the workshop, you must install **Tableau Public** before arriving.
 
-> **Current Version:** As of February 12, 2026, the current version of Tableau Public is **2025.3.2**.  
+> **Current Version:** As of July 28, 2026, the current version of Tableau Public is **2026.2.1**.  
 > Please install the most recent available version at the time of download.
 
 ---
