@@ -20,12 +20,12 @@ If you encounter any issues installing QGIS, please contact the instructor **bef
 **Software:**   
 This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide] (https://docs.posit.co/ide/user/)
 
-> Prior to the Workshop, you will need to install or update R and RStudio.
+Prior to the Workshop, you will need to install or update R and RStudio.
 
 
-> **Current Version Information (July 27, 2026):**   
-> - The latest release is **R 3.44**.  
-> - The latest release is **RStudio 3.44**. 
+**Current Version Information (July 27, 2026):**   
+- The latest release is **R 3.44**.  
+- The latest release is **RStudio 3.44**. 
 
 Please install the appropriate version for your operating system using the guidance below.
 
@@ -37,8 +37,8 @@ Please install the appropriate version for your operating system using the guida
 3. Click **Download Now**.  
 4. Under Windows downloads, choose the **Standalone Installer**.
 
-> ⚠️ **Important:** Do **NOT** download or install the *OSGeo4W Network Installer*.  
-> For this workshop, you should install the **Standalone version** only.
+⚠️ **Important:** Do **NOT** download or install the *OSGeo4W Network Installer*.  
+For this workshop, you should install the **Standalone version** only.
 
 ### Recommended Version for Windows
 
