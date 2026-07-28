@@ -22,7 +22,7 @@ Use the buttons in the top right or the links below to navigate directly to a wo
 - **September 24:** Unlocking the Power of Community Data: Introduction to Tableau Public [PDF Flyer](/assets/pdf/tableau_Flyer_sept2026.pdf){:target="_blank" rel="noopener noreferrer"} - (Taught by Chris Seeger) [Registration](https://go.iastate.edu/B7SRTF){:target="_blank" rel="noopener noreferrer"} 
 
 
-Registration will open soon, You can register for a single workshop or bundle both for a discounted price.
+*Note the QGIS and Tableua workshop can be bundled during registration for a discounted price.*
 
 <!-- 
 -->
