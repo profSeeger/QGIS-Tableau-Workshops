@@ -18,7 +18,7 @@ If you encounter any issues installing QGIS, please contact the instructor **bef
 ---
 
 **Software:**   
-This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide](https://docs.posit.co/ide/user/)
+This workshop uses the R scripting language and the RStudio software application. RStudio is an integrated development environment (IDE) designed to support multiple languages, including both R and Python. For more information visit the [RStudio User Guide](https://docs.posit.co/ide/user/){:target="_blank"}
 
 
 
@@ -35,10 +35,18 @@ Please install the appropriate version for your operating system using the guida
 
 ## R
 
-1. Go to: [CRAN's R page ](https://cran.r-project.org/)){:target="_blank"}
+1. Go to: [CRAN's R page](https://cran.r-project.org/){:target="_blank"}
 2. Select the link for macOS or Windows.
  ⚠️ Mac Users will be provided with an option to download an Intel or Silicon version. Most newer Macs will use the Silicon version.
    
+
+---
+
+## RStudio
+
+1. Go to: [RStudio Install Links](https://docs.posit.co/ide/user/#install-links){:target="_blank"}
+2. Select the link for macOS or Windows.
+3. Once downloaded, install the software
 
 ---
 
@@ -46,6 +54,7 @@ Please install the appropriate version for your operating system using the guida
 
 Before arriving at the workshop:
 
+- Restart your computer after installing the software to ensure that R has started
 - Open RStudio.  
 - Confirm it launches without errors.  
 - Verify the version number under **Help → About**.
