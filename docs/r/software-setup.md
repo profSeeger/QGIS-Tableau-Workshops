@@ -26,24 +26,19 @@ Prior to the Workshop, you will need to install or update R and RStudio.
 
 
 **Current Version Information (July 27, 2026):**   
-- The latest release is **R 3.44**.  
-- The latest release is **RStudio 3.44**. 
+- The latest release is **R 4.6.1**.  
+- The latest release is **RStudio revision 43**. 
 
 Please install the appropriate version for your operating system using the guidance below.
 
 ---
 
-## Windows (PC) Installation Instructions
+## R
 
-1. Go to: [QGIS website](https://qgis.org){:target="_blank"}
-3. Click **Download Now**.  
-4. Under Windows downloads, choose the **Standalone Installer**.
-
-⚠️ **Important:** Do **NOT** download or install the *OSGeo4W Network Installer*.  
-For this workshop, you should install the **Standalone version** only.
-
-### Recommended Version for Windows
-
+1. Go to: [CRAN's R page ](https://cran.r-project.org/)){:target="_blank"}
+2. Select the link for macOS or Windows.
+ ⚠️ Mac Users will be provided with an option to download an Intel or Silicon version. Most newer Macs will use the Silicon version.
+   
 
 ---
 
