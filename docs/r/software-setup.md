@@ -17,8 +17,7 @@ If you encounter any issues installing QGIS, please contact the instructor **bef
 
 ---
 
-> **Current Version Information (February 12, 2026):**  
-> - The current Long Term Release (LTR) for Windows is recommended.  
+> **Current Version Information (July 27, 2026):**   
 > - The latest release is **QGIS 3.44**.  
 > - For macOS users, **QGIS 3.44** is stable and has been designated as the future Long Term Release (LTR) and is therefore the recommended version.
 
