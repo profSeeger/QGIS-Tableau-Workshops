@@ -90,7 +90,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
           <path d="M6 20 L20 28 L34 20" stroke="#1d3f66" stroke-width="1.5" stroke-linejoin="round"/>
           <path d="M6 26 L20 34 L34 26" stroke="#1d3f66" stroke-width="1.5" stroke-linejoin="round"/>
         </svg>
-        <h3 class="ticket-title">Introduction to QGIS Workshop<br></h3>
+        <h3 class="ticket-title">Introduction to QGIS Workshop<br><br></h3>
         <p class="ticket-meta"><time datetime="2026-09-23">Wednesday, September 23, 2026</time></p>
         <p class="ticket-instructor">Taught by Chris Seeger</p>
       </div>
@@ -118,7 +118,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
           <rect x="17" y="14" width="6" height="20" fill="#7a3b12"/>
           <rect x="28" y="8" width="6" height="26" fill="#7a3b12"/>
         </svg>
-        <h3 class="ticket-title">Introduction to Tableau Public<br></h3>
+        <h3 class="ticket-title">Introduction to Tableau Public<br><br></h3>
         <p class="ticket-meta"><time datetime="2026-09-24">Thursday, September 24, 2026</time></p>
         <p class="ticket-instructor">Taught by Chris Seeger</p>
       </div>
