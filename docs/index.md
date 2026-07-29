@@ -7,7 +7,7 @@ header:
 custom_head: head/custom.html
 ---
 
-Welcome to the Community Data Workshop's resource site. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
+Welcome to the Unlocking the Power of Community Data Workshop's resource site. This site provides all the information you need for upcoming workshops, including **data downloads, software installation instructions, prerequisites, agendas, and additional resources**.  
 
 Use the buttons in the top right or the links below to navigate directly to a workshop.
 
@@ -64,7 +64,7 @@ Use the buttons in the top right or the links below to navigate directly to a wo
           <circle cx="29" cy="12" r="2" fill="#1f4d2c"/>
           <path d="M10 29 L30 10" stroke="#1f4d2c" stroke-width="1.5" stroke-dasharray="3 3"/>
         </svg>
-        <h3 class="ticket-title">R Fundamentals for Data Exploration and Visualization</h3>
+        <h3 class="ticket-title">R Fundamentals for Data Exploration & Visualization</h3>
         <p class="ticket-meta"><time datetime="2026-09-22">Tuesday, September 22, 2026</time></p>
         <p class="ticket-instructor">Taught by Jay Maxwell</p>
       </div>
@@ -120,7 +120,7 @@ Use the buttons in the top right or the links below to navigate directly to a wo
           <rect x="17" y="14" width="6" height="20" fill="#7a3b12"/>
           <rect x="28" y="8" width="6" height="26" fill="#7a3b12"/>
         </svg>
-        <h3 class="ticket-title">Unlocking the Power of Community Data: Introduction to Tableau Public</h3>
+        <h3 class="ticket-title">Introduction to Tableau Public</h3>
         <p class="ticket-meta"><time datetime="2026-09-24">Thursday, September 24, 2026</time></p>
         <p class="ticket-instructor">Taught by Chris Seeger</p>
       </div>
