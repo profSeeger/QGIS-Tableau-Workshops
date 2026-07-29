@@ -42,7 +42,7 @@ Please install the appropriate version for your operating system using the guida
 
 ## RStudio
 
-1. Go to: [RStudio Install Links](https://docs.posit.co/ide/user/#install-links){:target="_blank"}
+1. Go to: [RStudio Install](https://posit.co/products/open-source/rstudio){:target="_blank"}
 2. Select the link for macOS or Windows.
 3. Once downloaded, install the software
 
