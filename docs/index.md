@@ -92,7 +92,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
         </svg>
         <h3 class="ticket-title">Introduction to QGIS Workshop<br><br></h3>
         <p class="ticket-meta"><time datetime="2026-09-23">Wednesday, September 23, 2026</time></p>
-        <p class="ticket-instructor">Taught by Chris Seeger</p>
+        <p class="ticket-instructor">Taught by <a href="{% link about.md %}">Chris Seeger</a></p>
       </div>
     </article>
     <div class="ticket-footer">
