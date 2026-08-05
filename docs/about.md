@@ -1,6 +1,7 @@
 ---
 title: "About the Instructors"
 ---
+
 The workshops will be taught by **Professor Christopher J. Seeger, GISP, PLA**  and Extension Specialist Jay Maxwell.
 <br><br>
 ![Professor Christopher J. Seeger](/assets/images/cjseeger_0.jpg){:width="120px" style="float:left; margin-right:15px;"}
