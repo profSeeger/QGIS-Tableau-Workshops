@@ -64,7 +64,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
         </svg>
         <h3 class="ticket-title">R Fundamentals for Data Exploration & Visualization</h3>
         <p class="ticket-meta"><time datetime="2026-09-22">Tuesday, September 22, 2026</time></p>
-        <p class="ticket-instructor">Taught by Jay Maxwell</p>
+        <p class="ticket-instructor">Taught by <a href="{% link about.md %}">Jay Maxwell</a></p>
       </div>
     </article>
     <div class="ticket-footer">
