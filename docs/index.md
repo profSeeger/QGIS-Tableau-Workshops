@@ -120,7 +120,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
         </svg>
         <h3 class="ticket-title">Introduction to Tableau Public<br><br></h3>
         <p class="ticket-meta"><time datetime="2026-09-24">Thursday, September 24, 2026</time></p>
-        <p class="ticket-instructor">Taught by [Chris Seeger]({% link about.md %})</p>
+        <p class="ticket-info" markdown="1"> Taught by [Chris Seeger]({% link about.md %}) </p>
       </div>
     </article>
     <div class="ticket-footer">
