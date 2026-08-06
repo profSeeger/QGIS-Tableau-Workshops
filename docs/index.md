@@ -7,7 +7,7 @@ header:
 custom_head: head/custom.html
 ---
 
-Welcome to the Unlocking the Power of Community Data Workshop's resource site. This site provides all the information you need for upcoming workshops, including data downloads, software installation instructions, prerequisites, agendas, and additional resources. 
+Welcome to the Unlocking the Power of Community Data Workshop's resource site. This site provides all the information you need for upcoming workshops, including data downloads, software installation instructions, prerequisites, agendas, and additional resources.
 
 ---
 ## Upcoming Workshops
