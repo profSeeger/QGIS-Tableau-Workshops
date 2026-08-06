@@ -64,7 +64,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
         </svg>
         <h3 class="ticket-title">R Fundamentals for Data Exploration & Visualization</h3>
         <p class="ticket-meta"><time datetime="2026-09-22">Tuesday, September 22, 2026</time></p>
-        <p class="ticket-instructor">Taught by <a href="{% link about.md %}">Jay Maxwell</a></p>
+        <p class="ticket-instructor">Taught by <a href="{{ '/about/' | relative_url }}">Jay Maxwell</a></p>
       </div>
     </article>
     <div class="ticket-footer">
@@ -92,7 +92,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
         </svg>
         <h3 class="ticket-title">Introduction to QGIS Workshop<br><br></h3>
         <p class="ticket-meta"><time datetime="2026-09-23">Wednesday, September 23, 2026</time></p>
-        <p class="ticket-instructor">Taught by <a href="{% link about.md %}">Chris Seeger</a></p>
+        <p class="ticket-instructor">Taught by <a href="{{ '/about/' | relative_url }}">Chris Seeger</a></p>
       </div>
     </article>
     <div class="ticket-footer">
@@ -120,7 +120,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
         </svg>
         <h3 class="ticket-title">Introduction to Tableau Public<br><br></h3>
         <p class="ticket-meta"><time datetime="2026-09-24">Thursday, September 24, 2026</time></p>
-        <p class="ticket-info" markdown="1"> Taught by [Chris Seeger]({% link about.md %}) </p>
+        <p class="ticket-info" markdown="1">Taught by <a href="{{ '/about/' | relative_url }}">Chris Seeger</a></p>
       </div>
     </article>
     <div class="ticket-footer">
