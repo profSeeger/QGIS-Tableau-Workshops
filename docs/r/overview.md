@@ -52,7 +52,7 @@ Alliant Energy Ag Innovation Lab
 Ames, Iowa  
 
 **Register here:**  
-👉 Available Soon!
+ <a href="https://go.iastate.edu/RZEDSG">Register for R Fundamentals</a>
 
 ---
 
