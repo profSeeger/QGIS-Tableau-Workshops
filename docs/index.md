@@ -137,9 +137,9 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
   </li>
 -->
 </ul>
-
+<!--
 <p class="bundle-note">Note: the QGIS and Tableau workshops can be bundled during registration for a discounted price.</p>
-
+-->
 ---
 
 ## Additional Resources
