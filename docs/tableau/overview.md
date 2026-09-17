@@ -65,6 +65,7 @@ Ames, Iowa
 
 Participants interested in the **QGIS Workshop (September 23)** may register for a special discounted bundle workshop price.
 -->
+
 ---
 
 ## Additional Information
