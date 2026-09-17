@@ -51,7 +51,9 @@ Ames, Iowa
 **Register here:**  
 👉 [https://go.iastate.edu/B7SRTF)](https://go.iastate.edu/B7SRTF)
 
+<!--
 Participants interested in the **Tableau Workshop (September 24)** may register for a special discounted bundle workshop price.
+-->
 
 ---
 
