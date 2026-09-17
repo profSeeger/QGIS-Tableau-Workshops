@@ -49,6 +49,9 @@ No prior experience with Tableau is required.
 
 ## Next Workshop Offering
 
+We don't currently have any workshops scheduled, but if you have a group interested, we can work with you to schedule a workshop.
+
+<!--
 **September 24, 2026**  
 **8:30 a.m. – 4:00 p.m.**
 
@@ -61,7 +64,7 @@ Ames, Iowa
 👉 [https://go.iastate.edu/B7SRTF)](https://go.iastate.edu/B7SRTF)
 
 Participants interested in the **QGIS Workshop (September 23)** may register for a special discounted bundle workshop price.
-
+-->
 ---
 
 ## Additional Information
