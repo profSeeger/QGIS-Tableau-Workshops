@@ -54,15 +54,12 @@ We don't currently have any workshops scheduled, but if you have a group interes
 <!--
 **September 24, 2026**  
 **8:30 a.m. – 4:00 p.m.**
-
 Room 1060  
 Alliant Energy Ag Innovation Lab  
 3800 University Blvd.  
 Ames, Iowa  
-
 **Register here:**  
 👉 [https://go.iastate.edu/B7SRTF)](https://go.iastate.edu/B7SRTF)
-
 Participants interested in the **QGIS Workshop (September 23)** may register for a special discounted bundle workshop price.
 -->
 
