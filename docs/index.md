@@ -107,7 +107,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
       </div>
     </div>
   </li>
-
+<!--
   <li>
     <article class="ticket-card">
       <div class="ticket-stamp"><span>SEPT&nbsp;24</span></div>
@@ -135,7 +135,7 @@ Welcome to the Unlocking the Power of Community Data Workshop's resource site. T
       </div>
     </div>
   </li>
-
+-->
 </ul>
 
 <p class="bundle-note">Note: the QGIS and Tableau workshops can be bundled during registration for a discounted price.</p>
