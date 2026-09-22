@@ -96,6 +96,8 @@ permalink: /qgis/agenda/
 - Digitizing features
   - Modify USA Map
   - Make new Geometry
+    - Virtual layer vs Shapefile
+    - Snapping 
 - Saving edits and new geometry into a GeoPackage
 
 ### 3:00 – 3:30 | Geoprocessing Tools - Introduction
