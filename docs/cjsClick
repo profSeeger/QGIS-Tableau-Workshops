@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chris Clickbait Link Demo</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 760px; margin: 10vh auto; padding: 0 1.25rem;
+      color: #202124; line-height: 1.55;
+    }
+    main { border: 1px solid #dadce0; border-radius: 14px; padding: 1.5rem; }
+    h1 { margin-top: 0; font-size: 1.7rem; }
+    .demo-link { font-size: 1.15rem; }
+    .note { margin-top: 1.5rem; padding: 1rem; background: #f1f3f4; border-radius: 8px; }
+    code { overflow-wrap: anywhere; }
+    button { font: inherit; padding: .55rem .8rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Chris's Clickbait Link Demonstration</h1>
+    <p>This link <strong>looks like</strong> it will open Google:</p>
+    <p><a class="demo-link" id="demoLink" href="https://www.google.com">https://www.google.com</a></p>
+    <p>Click it to see where it actually goes.</p>
+
+    <section class="note" aria-live="polite" id="explanation" hidden>
+      <strong>What happened?</strong>
+      <p>The link text said <code>https://www.google.com</code>, but JavaScript changed the destination to
+      <code>https://www.iastate.edu</code>.</p>
+      <p>This demo illustrates why you should inspect a link's actual destination rather than trusting the visible text alone.</p>
+      <button id="continueButton" type="button">Continue to Iowa State University</button>
+    </section>
+  </main>
+
+  <script>
+    const link = document.getElementById("demoLink");
+    const explanation = document.getElementById("explanation");
+    const continueButton = document.getElementById("continueButton");
+
+    link.addEventListener("click", function (event) {
+      event.preventDefault(); // Keep the page here long enough to explain the trick.
+      link.href = "https://www.iastate.edu";
+      explanation.hidden = false;
+      link.setAttribute("aria-label", "Displayed as Google, actual destination Iowa State University");
+    });
+
+    continueButton.addEventListener("click", function () {
+      window.location.href = "https://www.iastate.edu";
+    });
+  </script>
+</body>
+</html>
